@@ -1,0 +1,265 @@
+[0.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.198s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x726d81822da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x726d818227d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x726d818227d0>>, mixin_verb=('build',))
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.453s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vladi/Desktop/ros2_commands/qt_ros_ws'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_bringup) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neptune_2_bringup' with type 'ros.ament_cmake' and name 'neptune_2_bringup'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/neptune_2_description) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neptune_2_description' with type 'ros.ament_cmake' and name 'neptune_2_description'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/st_ligth) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/st_ligth' with type 'ros.ament_cmake' and name 'st_ligth'
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.645s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/vladi/Desktop/ros2_commands/qt_ros_ws/install
+[0.647s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 456 installed packages in /opt/ros/humble
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'neptune_2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description', 'merge_install': False, 'path': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'st_ligth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'st_ligth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth', 'merge_install': False, 'path': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/st_ligth', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'neptune_2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'neptune_2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup', 'merge_install': False, 'path': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.720s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description' with build type 'ament_cmake'
+[0.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description'
+[0.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/st_ligth' with build type 'ament_cmake'
+[0.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/st_ligth'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description -- -j8 -l8
+[0.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth -- -j8 -l8
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth -- -j8 -l8
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description -- -j8 -l8
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description
+[0.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(st_ligth)
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth' for CMake module files
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth' for CMake config files
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('st_ligth', 'cmake_prefix_path')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.sh'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/bin'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/lib/pkgconfig/st_ligth.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/lib/python3.10/site-packages'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/bin'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.bash'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.zsh'
+[0.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/colcon-core/packages/st_ligth)
+[0.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neptune_2_description)
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description' for CMake module files
+[0.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description' for CMake config files
+[0.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('neptune_2_description', 'cmake_prefix_path')
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.sh'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/lib/pkgconfig/neptune_2_description.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/lib/python3.10/site-packages'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/bin'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.sh'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.zsh'
+[0.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/colcon-core/packages/neptune_2_description)
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(st_ligth)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth' for CMake module files
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth' for CMake config files
+[0.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('st_ligth', 'cmake_prefix_path')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/hook/cmake_prefix_path.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/bin'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/lib/pkgconfig/st_ligth.pc'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/lib/python3.10/site-packages'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/bin'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.sh'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.bash'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.zsh'
+[0.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/colcon-core/packages/st_ligth)
+[0.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neptune_2_description)
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description' for CMake module files
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description' for CMake config files
+[0.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('neptune_2_description', 'cmake_prefix_path')
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.dsv'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/hook/cmake_prefix_path.sh'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/bin'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/lib/pkgconfig/neptune_2_description.pc'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/lib/python3.10/site-packages'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/bin'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.sh'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.bash'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.zsh'
+[0.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/colcon-core/packages/neptune_2_description)
+[0.958s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup' with build type 'ament_cmake'
+[0.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup'
+[0.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[25.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[25.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup
+[25.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neptune_2_bringup)
+[25.321s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup' for CMake module files
+[25.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup
+[25.322s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup' for CMake config files
+[25.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('neptune_2_bringup', 'cmake_prefix_path')
+[25.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.ps1'
+[25.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.dsv'
+[25.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.sh'
+[25.330s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib'
+[25.331s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/bin'
+[25.331s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/pkgconfig/neptune_2_bringup.pc'
+[25.331s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/python3.10/site-packages'
+[25.332s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/bin'
+[25.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.ps1'
+[25.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.dsv'
+[25.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.sh'
+[25.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.bash'
+[25.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.zsh'
+[25.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/colcon-core/packages/neptune_2_bringup)
+[25.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neptune_2_bringup)
+[25.371s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup' for CMake module files
+[25.372s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup' for CMake config files
+[25.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('neptune_2_bringup', 'cmake_prefix_path')
+[25.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.ps1'
+[25.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.dsv'
+[25.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/hook/cmake_prefix_path.sh'
+[25.375s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib'
+[25.375s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/bin'
+[25.375s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/pkgconfig/neptune_2_bringup.pc'
+[25.376s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/python3.10/site-packages'
+[25.376s] Level 1:colcon.colcon_core.environment:checking '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/bin'
+[25.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.ps1'
+[25.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.dsv'
+[25.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.sh'
+[25.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.bash'
+[25.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.zsh'
+[25.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/colcon-core/packages/neptune_2_bringup)
+[25.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.381s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.387s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.401s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/local_setup.ps1'
+[25.403s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/_local_setup_util_ps1.py'
+[25.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/setup.ps1'
+[25.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/local_setup.sh'
+[25.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/_local_setup_util_sh.py'
+[25.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/setup.sh'
+[25.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/local_setup.bash'
+[25.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/setup.bash'
+[25.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/local_setup.zsh'
+[25.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/setup.zsh'

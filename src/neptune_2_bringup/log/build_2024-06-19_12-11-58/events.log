@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (neptune_2_description) JobQueued: {'identifier': 'neptune_2_description', 'dependencies': OrderedDict()}
+[0.000642] (st_ligth) JobQueued: {'identifier': 'st_ligth', 'dependencies': OrderedDict()}
+[0.000705] (neptune_2_bringup) JobQueued: {'identifier': 'neptune_2_bringup', 'dependencies': OrderedDict([('neptune_2_description', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description')])}
+[0.000966] (neptune_2_description) JobStarted: {'identifier': 'neptune_2_description'}
+[0.039841] (st_ligth) JobStarted: {'identifier': 'st_ligth'}
+[0.080608] (neptune_2_description) JobProgress: {'identifier': 'neptune_2_description', 'progress': 'cmake'}
+[0.099148] (-) TimerEvent: {}
+[0.102833] (neptune_2_description) JobProgress: {'identifier': 'neptune_2_description', 'progress': 'build'}
+[0.103733] (neptune_2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble')]), 'shell': False}
+[0.108236] (st_ligth) JobProgress: {'identifier': 'st_ligth', 'progress': 'cmake'}
+[0.119872] (st_ligth) JobProgress: {'identifier': 'st_ligth', 'progress': 'build'}
+[0.121699] (st_ligth) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble')]), 'shell': False}
+[0.158681] (neptune_2_description) CommandEnded: {'returncode': 0}
+[0.169953] (st_ligth) CommandEnded: {'returncode': 0}
+[0.182662] (neptune_2_description) JobProgress: {'identifier': 'neptune_2_description', 'progress': 'install'}
+[0.193259] (neptune_2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble')]), 'shell': False}
+[0.195837] (st_ligth) JobProgress: {'identifier': 'st_ligth', 'progress': 'install'}
+[0.196569] (st_ligth) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble')]), 'shell': False}
+[0.199251] (-) TimerEvent: {}
+[0.203694] (neptune_2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.204841] (neptune_2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.205750] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/blueRov2.dae\n'}
+[0.206048] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/camera.xacro\n'}
+[0.206311] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/common_properties.xacro\n'}
+[0.206569] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/mobile.xacro\n'}
+[0.206755] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/neptune_2.urdf.xacro\n'}
+[0.206950] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/neptune_2_gazebo.xacro\n'}
+[0.207207] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/projector.xacro\n'}
+[0.207670] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//launch/display.launch.xml\n'}
+[0.207887] (st_ligth) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.208163] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/package_run_dependencies/st_ligth\n'}
+[0.208422] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/parent_prefix_path/st_ligth\n'}
+[0.208566] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/ament_prefix_path.sh\n'}
+[0.208693] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/ament_prefix_path.dsv\n'}
+[0.208789] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/path.sh\n'}
+[0.208916] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//rviz/urdf_config,rviz.rviz\n'}
+[0.209059] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/path.dsv\n'}
+[0.209244] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.bash\n'}
+[0.209368] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.sh\n'}
+[0.209465] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.zsh\n'}
+[0.209558] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.dsv\n'}
+[0.209700] (st_ligth) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.dsv\n'}
+[0.209818] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//meshes/blueRov2.dae\n'}
+[0.209934] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//meshes/untitled.dae\n'}
+[0.210099] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/packages/st_ligth\n'}
+[0.210219] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/cmake/st_ligthConfig.cmake\n'}
+[0.210329] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/cmake/st_ligthConfig-version.cmake\n'}
+[0.210471] (st_ligth) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.xml\n'}
+[0.210710] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/package_run_dependencies/neptune_2_description\n'}
+[0.211559] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/parent_prefix_path/neptune_2_description\n'}
+[0.212423] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/ament_prefix_path.sh\n'}
+[0.212709] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/ament_prefix_path.dsv\n'}
+[0.213206] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/path.sh\n'}
+[0.213479] (st_ligth) CommandEnded: {'returncode': 0}
+[0.214273] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/path.dsv\n'}
+[0.214516] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.bash\n'}
+[0.227371] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.sh\n'}
+[0.227655] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.zsh\n'}
+[0.227889] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.dsv\n'}
+[0.228121] (neptune_2_description) StdoutLine: {'line': b'-- Symlinking: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.dsv\n'}
+[0.238726] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/packages/neptune_2_description\n'}
+[0.242198] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/cmake/neptune_2_descriptionConfig.cmake\n'}
+[0.242401] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/cmake/neptune_2_descriptionConfig-version.cmake\n'}
+[0.242574] (neptune_2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.xml\n'}
+[0.280142] (neptune_2_description) CommandEnded: {'returncode': 0}
+[0.299360] (-) TimerEvent: {}
+[0.314514] (st_ligth) JobEnded: {'identifier': 'st_ligth', 'rc': 0}
+[0.323717] (neptune_2_description) JobEnded: {'identifier': 'neptune_2_description', 'rc': 0}
+[0.325029] (neptune_2_bringup) JobStarted: {'identifier': 'neptune_2_bringup'}
+[0.336659] (neptune_2_bringup) JobProgress: {'identifier': 'neptune_2_bringup', 'progress': 'cmake'}
+[0.364176] (neptune_2_bringup) JobProgress: {'identifier': 'neptune_2_bringup', 'progress': 'build'}
+[0.365471] (neptune_2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble')]), 'shell': False}
+[0.399467] (-) TimerEvent: {}
+[0.499763] (-) TimerEvent: {}
+[0.511881] (neptune_2_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o\x1b[0m\n'}
+[0.599868] (-) TimerEvent: {}
+[0.700185] (-) TimerEvent: {}
+[0.800540] (-) TimerEvent: {}
+[0.900872] (-) TimerEvent: {}
+[1.001226] (-) TimerEvent: {}
+[1.101634] (-) TimerEvent: {}
+[1.202163] (-) TimerEvent: {}
+[1.302502] (-) TimerEvent: {}
+[1.402858] (-) TimerEvent: {}
+[1.503277] (-) TimerEvent: {}
+[1.603706] (-) TimerEvent: {}
+[1.704109] (-) TimerEvent: {}
+[1.804529] (-) TimerEvent: {}
+[1.904990] (-) TimerEvent: {}
+[2.005379] (-) TimerEvent: {}
+[2.105723] (-) TimerEvent: {}
+[2.206062] (-) TimerEvent: {}
+[2.306395] (-) TimerEvent: {}
+[2.406716] (-) TimerEvent: {}
+[2.507061] (-) TimerEvent: {}
+[2.607483] (-) TimerEvent: {}
+[2.707962] (-) TimerEvent: {}
+[2.808479] (-) TimerEvent: {}
+[2.908928] (-) TimerEvent: {}
+[3.009365] (-) TimerEvent: {}
+[3.109975] (-) TimerEvent: {}
+[3.210394] (-) TimerEvent: {}
+[3.310802] (-) TimerEvent: {}
+[3.411219] (-) TimerEvent: {}
+[3.511599] (-) TimerEvent: {}
+[3.611987] (-) TimerEvent: {}
+[3.712431] (-) TimerEvent: {}
+[3.812810] (-) TimerEvent: {}
+[3.913180] (-) TimerEvent: {}
+[4.013560] (-) TimerEvent: {}
+[4.113959] (-) TimerEvent: {}
+[4.214429] (-) TimerEvent: {}
+[4.314829] (-) TimerEvent: {}
+[4.415207] (-) TimerEvent: {}
+[4.515545] (-) TimerEvent: {}
+[4.615893] (-) TimerEvent: {}
+[4.716283] (-) TimerEvent: {}
+[4.816677] (-) TimerEvent: {}
+[4.917040] (-) TimerEvent: {}
+[5.017400] (-) TimerEvent: {}
+[5.117770] (-) TimerEvent: {}
+[5.218172] (-) TimerEvent: {}
+[5.318567] (-) TimerEvent: {}
+[5.418943] (-) TimerEvent: {}
+[5.519298] (-) TimerEvent: {}
+[5.619645] (-) TimerEvent: {}
+[5.719996] (-) TimerEvent: {}
+[5.820383] (-) TimerEvent: {}
+[5.920769] (-) TimerEvent: {}
+[6.021142] (-) TimerEvent: {}
+[6.121487] (-) TimerEvent: {}
+[6.221813] (-) TimerEvent: {}
+[6.322139] (-) TimerEvent: {}
+[6.422447] (-) TimerEvent: {}
+[6.522797] (-) TimerEvent: {}
+[6.623163] (-) TimerEvent: {}
+[6.723519] (-) TimerEvent: {}
+[6.823875] (-) TimerEvent: {}
+[6.924247] (-) TimerEvent: {}
+[7.024623] (-) TimerEvent: {}
+[7.125016] (-) TimerEvent: {}
+[7.225412] (-) TimerEvent: {}
+[7.325781] (-) TimerEvent: {}
+[7.426157] (-) TimerEvent: {}
+[7.526546] (-) TimerEvent: {}
+[7.626934] (-) TimerEvent: {}
+[7.727311] (-) TimerEvent: {}
+[7.827738] (-) TimerEvent: {}
+[7.928082] (-) TimerEvent: {}
+[8.028442] (-) TimerEvent: {}
+[8.128791] (-) TimerEvent: {}
+[8.229130] (-) TimerEvent: {}
+[8.329489] (-) TimerEvent: {}
+[8.429836] (-) TimerEvent: {}
+[8.530189] (-) TimerEvent: {}
+[8.630529] (-) TimerEvent: {}
+[8.730910] (-) TimerEvent: {}
+[8.831236] (-) TimerEvent: {}
+[8.931593] (-) TimerEvent: {}
+[9.031961] (-) TimerEvent: {}
+[9.132346] (-) TimerEvent: {}
+[9.232738] (-) TimerEvent: {}
+[9.333082] (-) TimerEvent: {}
+[9.433449] (-) TimerEvent: {}
+[9.533801] (-) TimerEvent: {}
+[9.634128] (-) TimerEvent: {}
+[9.734459] (-) TimerEvent: {}
+[9.834847] (-) TimerEvent: {}
+[9.935283] (-) TimerEvent: {}
+[10.035679] (-) TimerEvent: {}
+[10.136219] (-) TimerEvent: {}
+[10.236659] (-) TimerEvent: {}
+[10.337034] (-) TimerEvent: {}
+[10.437410] (-) TimerEvent: {}
+[10.537793] (-) TimerEvent: {}
+[10.638166] (-) TimerEvent: {}
+[10.738527] (-) TimerEvent: {}
+[10.838910] (-) TimerEvent: {}
+[10.939257] (-) TimerEvent: {}
+[11.039595] (-) TimerEvent: {}
+[11.139935] (-) TimerEvent: {}
+[11.240290] (-) TimerEvent: {}
+[11.340664] (-) TimerEvent: {}
+[11.441037] (-) TimerEvent: {}
+[11.541431] (-) TimerEvent: {}
+[11.613078] (neptune_2_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MSGToPCL2::on_receive(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.613315] (neptune_2_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:105:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.613424] (neptune_2_bringup) StderrLine: {'line': b'  105 |         double \x1b[01;35m\x1b[Kcx\x1b[m\x1b[K = 960.5;\n'}
+[11.613519] (neptune_2_bringup) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.613608] (neptune_2_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:106:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.613701] (neptune_2_bringup) StderrLine: {'line': b'  106 |         double \x1b[01;35m\x1b[Kcy\x1b[m\x1b[K = 540.5;\n'}
+[11.613790] (neptune_2_bringup) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.613875] (neptune_2_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:107:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.613965] (neptune_2_bringup) StderrLine: {'line': b'  107 |         double \x1b[01;35m\x1b[Kfx\x1b[m\x1b[K = 1696.802685832259;\n'}
+[11.614053] (neptune_2_bringup) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.614140] (neptune_2_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:108:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.614229] (neptune_2_bringup) StderrLine: {'line': b'  108 |         double \x1b[01;35m\x1b[Kfy\x1b[m\x1b[K = 1696.802685832259;\n'}
+[11.614314] (neptune_2_bringup) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.641554] (-) TimerEvent: {}
+[11.741886] (-) TimerEvent: {}
+[11.842274] (-) TimerEvent: {}
+[11.942621] (-) TimerEvent: {}
+[12.043022] (-) TimerEvent: {}
+[12.143418] (-) TimerEvent: {}
+[12.243777] (-) TimerEvent: {}
+[12.344204] (-) TimerEvent: {}
+[12.444626] (-) TimerEvent: {}
+[12.545068] (-) TimerEvent: {}
+[12.645415] (-) TimerEvent: {}
+[12.745738] (-) TimerEvent: {}
+[12.846047] (-) TimerEvent: {}
+[12.946392] (-) TimerEvent: {}
+[13.046730] (-) TimerEvent: {}
+[13.147059] (-) TimerEvent: {}
+[13.247384] (-) TimerEvent: {}
+[13.347701] (-) TimerEvent: {}
+[13.448057] (-) TimerEvent: {}
+[13.548415] (-) TimerEvent: {}
+[13.648752] (-) TimerEvent: {}
+[13.749086] (-) TimerEvent: {}
+[13.849399] (-) TimerEvent: {}
+[13.949726] (-) TimerEvent: {}
+[14.050031] (-) TimerEvent: {}
+[14.150378] (-) TimerEvent: {}
+[14.250739] (-) TimerEvent: {}
+[14.351117] (-) TimerEvent: {}
+[14.451457] (-) TimerEvent: {}
+[14.551801] (-) TimerEvent: {}
+[14.652268] (-) TimerEvent: {}
+[14.752670] (-) TimerEvent: {}
+[14.853040] (-) TimerEvent: {}
+[14.953661] (-) TimerEvent: {}
+[15.054436] (-) TimerEvent: {}
+[15.154837] (-) TimerEvent: {}
+[15.265049] (-) TimerEvent: {}
+[15.365452] (-) TimerEvent: {}
+[15.465829] (-) TimerEvent: {}
+[15.566258] (-) TimerEvent: {}
+[15.666633] (-) TimerEvent: {}
+[15.766993] (-) TimerEvent: {}
+[15.867360] (-) TimerEvent: {}
+[15.967738] (-) TimerEvent: {}
+[16.068166] (-) TimerEvent: {}
+[16.168552] (-) TimerEvent: {}
+[16.268950] (-) TimerEvent: {}
+[16.369329] (-) TimerEvent: {}
+[16.469723] (-) TimerEvent: {}
+[16.570131] (-) TimerEvent: {}
+[16.670533] (-) TimerEvent: {}
+[16.770987] (-) TimerEvent: {}
+[16.871379] (-) TimerEvent: {}
+[16.971803] (-) TimerEvent: {}
+[17.072224] (-) TimerEvent: {}
+[17.172613] (-) TimerEvent: {}
+[17.273011] (-) TimerEvent: {}
+[17.373436] (-) TimerEvent: {}
+[17.473835] (-) TimerEvent: {}
+[17.574181] (-) TimerEvent: {}
+[17.674528] (-) TimerEvent: {}
+[17.774911] (-) TimerEvent: {}
+[17.875345] (-) TimerEvent: {}
+[17.975799] (-) TimerEvent: {}
+[18.076226] (-) TimerEvent: {}
+[18.176648] (-) TimerEvent: {}
+[18.277081] (-) TimerEvent: {}
+[18.377523] (-) TimerEvent: {}
+[18.477973] (-) TimerEvent: {}
+[18.578460] (-) TimerEvent: {}
+[18.678927] (-) TimerEvent: {}
+[18.779380] (-) TimerEvent: {}
+[18.879841] (-) TimerEvent: {}
+[18.980245] (-) TimerEvent: {}
+[19.080619] (-) TimerEvent: {}
+[19.181035] (-) TimerEvent: {}
+[19.281478] (-) TimerEvent: {}
+[19.381882] (-) TimerEvent: {}
+[19.482334] (-) TimerEvent: {}
+[19.582784] (-) TimerEvent: {}
+[19.683242] (-) TimerEvent: {}
+[19.783717] (-) TimerEvent: {}
+[19.884169] (-) TimerEvent: {}
+[19.984590] (-) TimerEvent: {}
+[20.084976] (-) TimerEvent: {}
+[20.185351] (-) TimerEvent: {}
+[20.285742] (-) TimerEvent: {}
+[20.386141] (-) TimerEvent: {}
+[20.486539] (-) TimerEvent: {}
+[20.586914] (-) TimerEvent: {}
+[20.687284] (-) TimerEvent: {}
+[20.787663] (-) TimerEvent: {}
+[20.888034] (-) TimerEvent: {}
+[20.988444] (-) TimerEvent: {}
+[21.088827] (-) TimerEvent: {}
+[21.189193] (-) TimerEvent: {}
+[21.289525] (-) TimerEvent: {}
+[21.389898] (-) TimerEvent: {}
+[21.490264] (-) TimerEvent: {}
+[21.590625] (-) TimerEvent: {}
+[21.691028] (-) TimerEvent: {}
+[21.791454] (-) TimerEvent: {}
+[21.891851] (-) TimerEvent: {}
+[21.992189] (-) TimerEvent: {}
+[22.092594] (-) TimerEvent: {}
+[22.193017] (-) TimerEvent: {}
+[22.293454] (-) TimerEvent: {}
+[22.394047] (-) TimerEvent: {}
+[22.494465] (-) TimerEvent: {}
+[22.594907] (-) TimerEvent: {}
+[22.695305] (-) TimerEvent: {}
+[22.795721] (-) TimerEvent: {}
+[22.896042] (-) TimerEvent: {}
+[22.996435] (-) TimerEvent: {}
+[23.096758] (-) TimerEvent: {}
+[23.197091] (-) TimerEvent: {}
+[23.297438] (-) TimerEvent: {}
+[23.397783] (-) TimerEvent: {}
+[23.498163] (-) TimerEvent: {}
+[23.598607] (-) TimerEvent: {}
+[23.699030] (-) TimerEvent: {}
+[23.799474] (-) TimerEvent: {}
+[23.899984] (-) TimerEvent: {}
+[24.000525] (-) TimerEvent: {}
+[24.100979] (-) TimerEvent: {}
+[24.111210] (neptune_2_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable msg_to_pcl2\x1b[0m\n'}
+[24.201106] (-) TimerEvent: {}
+[24.301539] (-) TimerEvent: {}
+[24.401983] (-) TimerEvent: {}
+[24.502426] (-) TimerEvent: {}
+[24.602919] (-) TimerEvent: {}
+[24.703375] (-) TimerEvent: {}
+[24.803844] (-) TimerEvent: {}
+[24.904271] (-) TimerEvent: {}
+[25.004692] (-) TimerEvent: {}
+[25.105130] (-) TimerEvent: {}
+[25.205635] (-) TimerEvent: {}
+[25.306048] (-) TimerEvent: {}
+[25.406426] (-) TimerEvent: {}
+[25.506792] (-) TimerEvent: {}
+[25.607209] (-) TimerEvent: {}
+[25.707537] (-) TimerEvent: {}
+[25.807887] (-) TimerEvent: {}
+[25.908321] (-) TimerEvent: {}
+[26.008674] (-) TimerEvent: {}
+[26.108994] (-) TimerEvent: {}
+[26.209383] (-) TimerEvent: {}
+[26.309754] (-) TimerEvent: {}
+[26.410112] (-) TimerEvent: {}
+[26.510444] (-) TimerEvent: {}
+[26.610782] (-) TimerEvent: {}
+[26.711130] (-) TimerEvent: {}
+[26.811547] (-) TimerEvent: {}
+[26.911977] (-) TimerEvent: {}
+[27.012417] (-) TimerEvent: {}
+[27.112850] (-) TimerEvent: {}
+[27.213509] (-) TimerEvent: {}
+[27.313948] (-) TimerEvent: {}
+[27.414363] (-) TimerEvent: {}
+[27.514806] (-) TimerEvent: {}
+[27.615234] (-) TimerEvent: {}
+[27.715651] (-) TimerEvent: {}
+[27.812960] (neptune_2_bringup) StdoutLine: {'line': b'[100%] Built target msg_to_pcl2\n'}
+[27.815750] (-) TimerEvent: {}
+[27.827392] (neptune_2_bringup) CommandEnded: {'returncode': 0}
+[27.860661] (neptune_2_bringup) JobProgress: {'identifier': 'neptune_2_bringup', 'progress': 'install'}
+[27.861368] (neptune_2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('MANAGERPID', '1662'), ('SYSTEMD_EXEC_PID', '2075'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '29804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('JOURNAL_STREAM', '8:29476'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', 'Desktop/ros2_commands/qt_ros_ws/src/neptune_2_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/2045,unix/vladi:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '31f783c34b154bb9a20c42ab9ab6ee1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D7YKP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9f0df0d7-4839-44c2-a36d-8cfe66d12735'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble')]), 'shell': False}
+[27.871492] (neptune_2_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.872008] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//launch\n'}
+[27.872281] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//launch/neptune_2_gazebo.launch.xml\n'}
+[27.872416] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//rviz\n'}
+[27.872572] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//rviz/urdf_config,rviz.rviz\n'}
+[27.872709] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds\n'}
+[27.873689] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/pool_world.world\n'}
+[27.873792] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/basic_lidar\n'}
+[27.873892] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/pool_world (copy).xml\n'}
+[27.873996] (neptune_2_bringup) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/neptune_2_bringup/msg_to_pcl2\n'}
+[27.885717] (neptune_2_bringup) StdoutLine: {'line': b'-- Set runtime path of "/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/neptune_2_bringup/msg_to_pcl2" to ""\n'}
+[27.886119] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/package_run_dependencies/neptune_2_bringup\n'}
+[27.886288] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/parent_prefix_path/neptune_2_bringup\n'}
+[27.886437] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/ament_prefix_path.sh\n'}
+[27.886584] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/ament_prefix_path.dsv\n'}
+[27.886708] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/path.sh\n'}
+[27.886833] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/path.dsv\n'}
+[27.886945] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.bash\n'}
+[27.887036] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.sh\n'}
+[27.887171] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.zsh\n'}
+[27.887317] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.dsv\n'}
+[27.887428] (neptune_2_bringup) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.dsv\n'}
+[27.887525] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/packages/neptune_2_bringup\n'}
+[27.887610] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/cmake/neptune_2_bringupConfig.cmake\n'}
+[27.887712] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/cmake/neptune_2_bringupConfig-version.cmake\n'}
+[27.887795] (neptune_2_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.xml\n'}
+[27.889832] (neptune_2_bringup) CommandEnded: {'returncode': 0}
+[27.915853] (-) TimerEvent: {}
+[27.938568] (neptune_2_bringup) JobEnded: {'identifier': 'neptune_2_bringup', 'rc': 0}
+[27.939748] (-) EventReactorShutdown: {}

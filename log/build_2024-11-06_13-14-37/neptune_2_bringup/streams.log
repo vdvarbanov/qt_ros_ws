@@ -1,0 +1,130 @@
+[0.089s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target msg_to_pcl2[0m
+[0.782s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o[0m
+[41.743s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:[m[K In member function ‘[01m[Kvoid MSGToPCL2::on_receive(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[41.743s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:123:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.743s]   123 |         for (int i = 0; [01;35m[Ki < num_rays[m[K; ++i)
+[41.743s]       |                         [01;35m[K~~^~~~~~~~~~[m[K
+[41.745s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[41.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[41.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[41.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[41.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[41.747s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:1[m[K:
+[41.747s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:140:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[41.747s]   140 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"point_tmp.x: %d"[m[K,[32m[Kpoint_tmp.x[m[K);
+[41.747s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~[m[K
+[41.747s]       |                                                                         [32m[K|[m[K
+[41.747s]       |                                                                         [32m[Kdouble[m[K
+[41.747s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:140:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[41.747s]   140 |  RCLCPP_INFO(this->get_logger(), "point_tmp.x: [01;36m[K%d[m[K",point_tmp.x);
+[41.747s]       |                                                [01;36m[K~^[m[K
+[41.747s]       |                                                 [01;36m[K|[m[K
+[41.747s]       |                                                 [01;36m[Kint[m[K
+[41.748s]       |                                                [32m[K%f[m[K
+[41.748s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[41.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[41.749s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:1[m[K:
+[41.749s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:141:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[41.749s]   141 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"point_tmp.y: %d"[m[K,[32m[Kpoint_tmp.y[m[K);
+[41.749s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~[m[K
+[41.749s]       |                                                                         [32m[K|[m[K
+[41.749s]       |                                                                         [32m[Kdouble[m[K
+[41.749s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:141:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[41.749s]   141 |  RCLCPP_INFO(this->get_logger(), "point_tmp.y: [01;36m[K%d[m[K",point_tmp.y);
+[41.749s]       |                                                [01;36m[K~^[m[K
+[41.749s]       |                                                 [01;36m[K|[m[K
+[41.750s]       |                                                 [01;36m[Kint[m[K
+[41.750s]       |                                                [32m[K%f[m[K
+[41.750s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[41.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[41.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[41.751s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:1[m[K:
+[41.751s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:142:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[41.751s]   142 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"point_tmp.z: %d"[m[K,[32m[Kpoint_tmp.z[m[K);
+[41.751s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~[m[K
+[41.751s]       |                                                                         [32m[K|[m[K
+[41.751s]       |                                                                         [32m[Kdouble[m[K
+[41.751s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:142:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[41.751s]   142 |  RCLCPP_INFO(this->get_logger(), "point_tmp.z: [01;36m[K%d[m[K",point_tmp.z);
+[41.751s]       |                                                [01;36m[K~^[m[K
+[41.751s]       |                                                 [01;36m[K|[m[K
+[41.752s]       |                                                 [01;36m[Kint[m[K
+[41.752s]       |                                                [32m[K%f[m[K
+[41.752s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[41.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[41.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[41.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[41.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[41.753s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:1[m[K:
+[41.753s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:157:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[41.753s]   157 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"cotan_alpha_x: %f"[m[K, cotan_alpha_x);
+[41.753s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[41.753s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:157:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[41.753s]   157 | CLCPP_INFO(this->get_logger(), "cotan_alpha_x: [01;36m[K%f[m[K", cotan_alpha_x);
+[41.753s]       |                                                [01;36m[K~^[m[K
+[41.754s]       |                                                 [01;36m[K|[m[K
+[41.754s]       |                                                 [01;36m[Kdouble[m[K
+[41.754s] 
+[52.097s] [ 50%] [32m[1mLinking CXX executable msg_to_pcl2[0m
+[55.095s] [ 50%] Built target msg_to_pcl2
+[55.125s] [100%] Built target cam_cap
+[55.138s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[55.172s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup
+[55.180s] -- Install configuration: "Debug"
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//launch
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//launch/neptune_2_gazebo.launch.xml
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//rviz
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//rviz/urdf_config,rviz.rviz
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds
+[55.180s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/pool_world.world
+[55.181s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/basic_lidar
+[55.181s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup//worlds/pool_world (copy).xml
+[55.181s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/neptune_2_bringup/msg_to_pcl2
+[55.204s] -- Set runtime path of "/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/neptune_2_bringup/msg_to_pcl2" to ""
+[55.204s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/lib/neptune_2_bringup/cam_cap
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/package_run_dependencies/neptune_2_bringup
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/parent_prefix_path/neptune_2_bringup
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/ament_prefix_path.sh
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/ament_prefix_path.dsv
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/path.sh
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/environment/path.dsv
+[55.205s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.bash
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.sh
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.zsh
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/local_setup.dsv
+[55.206s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.dsv
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/ament_index/resource_index/packages/neptune_2_bringup
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/cmake/neptune_2_bringupConfig.cmake
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/cmake/neptune_2_bringupConfig-version.cmake
+[55.206s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup/share/neptune_2_bringup/package.xml
+[55.208s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup

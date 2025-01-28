@@ -1,0 +1,50 @@
+[0.401s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target vision_capture_node[0m
+[0.730s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_capture_node.dir/src/vision_capture_node.cpp.o[0m
+[14.032s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.037s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_node.cpp:1[m[K:
+[14.037s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_node.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::timer_callback()[m[K’:
+[14.038s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_node.cpp:28:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[14.038s]    28 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"image %c  published"[m[K, [32m[K_count[m[K);
+[14.039s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[14.039s]       |                                                                [32m[K|[m[K
+[14.040s]       |                                                                [32m[Ksize_t {aka long unsigned int}[m[K
+[14.040s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_node.cpp:28:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[14.041s]    28 |         RCLCPP_INFO(this->get_logger(), "image [01;36m[K%c[m[K  published", _count);
+[14.041s]       |                                                [01;36m[K~^[m[K
+[14.042s]       |                                                 [01;36m[K|[m[K
+[14.043s]       |                                                 [01;36m[Kint[m[K
+[14.043s]       |                                                [32m[K%ld[m[K
+[25.744s] [100%] [32m[1mLinking CXX executable vision_capture_node[0m
+[27.270s] [100%] Built target vision_capture_node
+[27.311s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8
+[27.440s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision
+[27.470s] -- Install configuration: ""
+[27.471s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/lib/vision/vision_capture_node
+[27.478s] -- Set runtime path of "/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/lib/vision/vision_capture_node" to ""
+[27.479s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[27.480s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[27.481s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[27.481s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[27.482s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/path.sh
+[27.483s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/path.dsv
+[27.483s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.bash
+[27.483s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.sh
+[27.484s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.zsh
+[27.485s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.dsv
+[27.485s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/package.dsv
+[27.487s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/packages/vision
+[27.488s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/cmake/visionConfig.cmake
+[27.491s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[27.492s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/package.xml
+[27.493s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision

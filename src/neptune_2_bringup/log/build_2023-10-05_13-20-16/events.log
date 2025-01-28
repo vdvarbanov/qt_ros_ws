@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.001533] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.002368] (vision) JobStarted: {'identifier': 'vision'}
+[0.098725] (-) TimerEvent: {}
+[0.200268] (-) TimerEvent: {}
+[0.274463] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.276975] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.280206] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fd6a7f458263967af34f885c651e7dcc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/1681,unix/vladi:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f485f63e_2f64_49d6_9f80_0e01b9519676'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JT4WB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fd6a7f458263967af34f885c651e7dcc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.302630] (-) TimerEvent: {}
+[0.403645] (-) TimerEvent: {}
+[0.504610] (-) TimerEvent: {}
+[0.508752] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_capture_node.dir/src/vision_capture_node.cpp.o\x1b[0m\n'}
+[0.604807] (-) TimerEvent: {}
+[0.705596] (-) TimerEvent: {}
+[0.806472] (-) TimerEvent: {}
+[0.907232] (-) TimerEvent: {}
+[1.008095] (-) TimerEvent: {}
+[1.108866] (-) TimerEvent: {}
+[1.209657] (-) TimerEvent: {}
+[1.310496] (-) TimerEvent: {}
+[1.411451] (-) TimerEvent: {}
+[1.512342] (-) TimerEvent: {}
+[1.613030] (-) TimerEvent: {}
+[1.713720] (-) TimerEvent: {}
+[1.814417] (-) TimerEvent: {}
+[1.915132] (-) TimerEvent: {}
+[2.015915] (-) TimerEvent: {}
+[2.116938] (-) TimerEvent: {}
+[2.217663] (-) TimerEvent: {}
+[2.318576] (-) TimerEvent: {}
+[2.419357] (-) TimerEvent: {}
+[2.520092] (-) TimerEvent: {}
+[2.620842] (-) TimerEvent: {}
+[2.721615] (-) TimerEvent: {}
+[2.822354] (-) TimerEvent: {}
+[2.923137] (-) TimerEvent: {}
+[3.023922] (-) TimerEvent: {}
+[3.124679] (-) TimerEvent: {}
+[3.225416] (-) TimerEvent: {}
+[3.326179] (-) TimerEvent: {}
+[3.426948] (-) TimerEvent: {}
+[3.527726] (-) TimerEvent: {}
+[3.628445] (-) TimerEvent: {}
+[3.729160] (-) TimerEvent: {}
+[3.829828] (-) TimerEvent: {}
+[3.930571] (-) TimerEvent: {}
+[4.031584] (-) TimerEvent: {}
+[4.132533] (-) TimerEvent: {}
+[4.233486] (-) TimerEvent: {}
+[4.334419] (-) TimerEvent: {}
+[4.435419] (-) TimerEvent: {}
+[4.536335] (-) TimerEvent: {}
+[4.637224] (-) TimerEvent: {}
+[4.738151] (-) TimerEvent: {}
+[4.839083] (-) TimerEvent: {}
+[4.940099] (-) TimerEvent: {}
+[5.041026] (-) TimerEvent: {}
+[5.141973] (-) TimerEvent: {}
+[5.242889] (-) TimerEvent: {}
+[5.343829] (-) TimerEvent: {}
+[5.444739] (-) TimerEvent: {}
+[5.545679] (-) TimerEvent: {}
+[5.646593] (-) TimerEvent: {}
+[5.747513] (-) TimerEvent: {}
+[5.848482] (-) TimerEvent: {}
+[5.949397] (-) TimerEvent: {}
+[6.050326] (-) TimerEvent: {}
+[6.151259] (-) TimerEvent: {}
+[6.252225] (-) TimerEvent: {}
+[6.353185] (-) TimerEvent: {}
+[6.454105] (-) TimerEvent: {}
+[6.555073] (-) TimerEvent: {}
+[6.656025] (-) TimerEvent: {}
+[6.756970] (-) TimerEvent: {}
+[6.857919] (-) TimerEvent: {}
+[6.958882] (-) TimerEvent: {}
+[7.060050] (-) TimerEvent: {}
+[7.160984] (-) TimerEvent: {}
+[7.261890] (-) TimerEvent: {}
+[7.362825] (-) TimerEvent: {}
+[7.463779] (-) TimerEvent: {}
+[7.564694] (-) TimerEvent: {}
+[7.665601] (-) TimerEvent: {}
+[7.766518] (-) TimerEvent: {}
+[7.867471] (-) TimerEvent: {}
+[7.968381] (-) TimerEvent: {}
+[8.069291] (-) TimerEvent: {}
+[8.170221] (-) TimerEvent: {}
+[8.271125] (-) TimerEvent: {}
+[8.372050] (-) TimerEvent: {}
+[8.472979] (-) TimerEvent: {}
+[8.573892] (-) TimerEvent: {}
+[8.674804] (-) TimerEvent: {}
+[8.775767] (-) TimerEvent: {}
+[8.876692] (-) TimerEvent: {}
+[8.977600] (-) TimerEvent: {}
+[9.078356] (-) TimerEvent: {}
+[9.179061] (-) TimerEvent: {}
+[9.279825] (-) TimerEvent: {}
+[9.380591] (-) TimerEvent: {}
+[9.481324] (-) TimerEvent: {}
+[9.582050] (-) TimerEvent: {}
+[9.682789] (-) TimerEvent: {}
+[9.783575] (-) TimerEvent: {}
+[9.884307] (-) TimerEvent: {}
+[9.984994] (-) TimerEvent: {}
+[10.085698] (-) TimerEvent: {}
+[10.186404] (-) TimerEvent: {}
+[10.287113] (-) TimerEvent: {}
+[10.387847] (-) TimerEvent: {}
+[10.488571] (-) TimerEvent: {}
+[10.589324] (-) TimerEvent: {}
+[10.690063] (-) TimerEvent: {}
+[10.790796] (-) TimerEvent: {}
+[10.891577] (-) TimerEvent: {}
+[10.992316] (-) TimerEvent: {}
+[11.093024] (-) TimerEvent: {}
+[11.193729] (-) TimerEvent: {}
+[11.294442] (-) TimerEvent: {}
+[11.395181] (-) TimerEvent: {}
+[11.495926] (-) TimerEvent: {}
+[11.596662] (-) TimerEvent: {}
+[11.697402] (-) TimerEvent: {}
+[11.798113] (-) TimerEvent: {}
+[11.898846] (-) TimerEvent: {}
+[11.999615] (-) TimerEvent: {}
+[12.100365] (-) TimerEvent: {}
+[12.201141] (-) TimerEvent: {}
+[12.301847] (-) TimerEvent: {}
+[12.402562] (-) TimerEvent: {}
+[12.503267] (-) TimerEvent: {}
+[12.604058] (-) TimerEvent: {}
+[12.704803] (-) TimerEvent: {}
+[12.805554] (-) TimerEvent: {}
+[12.906297] (-) TimerEvent: {}
+[13.007056] (-) TimerEvent: {}
+[13.107852] (-) TimerEvent: {}
+[13.208576] (-) TimerEvent: {}
+[13.309325] (-) TimerEvent: {}
+[13.410072] (-) TimerEvent: {}
+[13.510821] (-) TimerEvent: {}
+[13.611568] (-) TimerEvent: {}
+[13.712320] (-) TimerEvent: {}
+[13.813046] (-) TimerEvent: {}
+[13.913732] (-) TimerEvent: {}
+[14.014643] (-) TimerEvent: {}
+[14.115379] (-) TimerEvent: {}
+[14.216102] (-) TimerEvent: {}
+[14.316838] (-) TimerEvent: {}
+[14.417558] (-) TimerEvent: {}
+[14.518301] (-) TimerEvent: {}
+[14.619023] (-) TimerEvent: {}
+[14.719811] (-) TimerEvent: {}
+[14.820532] (-) TimerEvent: {}
+[14.921272] (-) TimerEvent: {}
+[15.022108] (-) TimerEvent: {}
+[15.122816] (-) TimerEvent: {}
+[15.223557] (-) TimerEvent: {}
+[15.324290] (-) TimerEvent: {}
+[15.425042] (-) TimerEvent: {}
+[15.525762] (-) TimerEvent: {}
+[15.626511] (-) TimerEvent: {}
+[15.727250] (-) TimerEvent: {}
+[15.827985] (-) TimerEvent: {}
+[15.928726] (-) TimerEvent: {}
+[16.029458] (-) TimerEvent: {}
+[16.130189] (-) TimerEvent: {}
+[16.230938] (-) TimerEvent: {}
+[16.331701] (-) TimerEvent: {}
+[16.432404] (-) TimerEvent: {}
+[16.533104] (-) TimerEvent: {}
+[16.633851] (-) TimerEvent: {}
+[16.734601] (-) TimerEvent: {}
+[16.835360] (-) TimerEvent: {}
+[16.936103] (-) TimerEvent: {}
+[17.036963] (-) TimerEvent: {}
+[17.137716] (-) TimerEvent: {}
+[17.238462] (-) TimerEvent: {}
+[17.339183] (-) TimerEvent: {}
+[17.439928] (-) TimerEvent: {}
+[17.540658] (-) TimerEvent: {}
+[17.641397] (-) TimerEvent: {}
+[17.742140] (-) TimerEvent: {}
+[17.842988] (-) TimerEvent: {}
+[17.943771] (-) TimerEvent: {}
+[18.044510] (-) TimerEvent: {}
+[18.145237] (-) TimerEvent: {}
+[18.245941] (-) TimerEvent: {}
+[18.346649] (-) TimerEvent: {}
+[18.447398] (-) TimerEvent: {}
+[18.548096] (-) TimerEvent: {}
+[18.648766] (-) TimerEvent: {}
+[18.749483] (-) TimerEvent: {}
+[18.850209] (-) TimerEvent: {}
+[18.950925] (-) TimerEvent: {}
+[19.051652] (-) TimerEvent: {}
+[19.152331] (-) TimerEvent: {}
+[19.253040] (-) TimerEvent: {}
+[19.353759] (-) TimerEvent: {}
+[19.454517] (-) TimerEvent: {}
+[19.555263] (-) TimerEvent: {}
+[19.656000] (-) TimerEvent: {}
+[19.756706] (-) TimerEvent: {}
+[19.857415] (-) TimerEvent: {}
+[19.958163] (-) TimerEvent: {}
+[20.058861] (-) TimerEvent: {}
+[20.159599] (-) TimerEvent: {}
+[20.260312] (-) TimerEvent: {}
+[20.361014] (-) TimerEvent: {}
+[20.461701] (-) TimerEvent: {}
+[20.562368] (-) TimerEvent: {}
+[20.663041] (-) TimerEvent: {}
+[20.763748] (-) TimerEvent: {}
+[20.864484] (-) TimerEvent: {}
+[20.965189] (-) TimerEvent: {}
+[21.066081] (-) TimerEvent: {}
+[21.166745] (-) TimerEvent: {}
+[21.267424] (-) TimerEvent: {}
+[21.368089] (-) TimerEvent: {}
+[21.468786] (-) TimerEvent: {}
+[21.569449] (-) TimerEvent: {}
+[21.670117] (-) TimerEvent: {}
+[21.770790] (-) TimerEvent: {}
+[21.871489] (-) TimerEvent: {}
+[21.972325] (-) TimerEvent: {}
+[22.073009] (-) TimerEvent: {}
+[22.173698] (-) TimerEvent: {}
+[22.274403] (-) TimerEvent: {}
+[22.375071] (-) TimerEvent: {}
+[22.475748] (-) TimerEvent: {}
+[22.576385] (-) TimerEvent: {}
+[22.677061] (-) TimerEvent: {}
+[22.777751] (-) TimerEvent: {}
+[22.878430] (-) TimerEvent: {}
+[22.979109] (-) TimerEvent: {}
+[23.079795] (-) TimerEvent: {}
+[23.180484] (-) TimerEvent: {}
+[23.281176] (-) TimerEvent: {}
+[23.381844] (-) TimerEvent: {}
+[23.482557] (-) TimerEvent: {}
+[23.583224] (-) TimerEvent: {}
+[23.683896] (-) TimerEvent: {}
+[23.784563] (-) TimerEvent: {}
+[23.885226] (-) TimerEvent: {}
+[23.985923] (-) TimerEvent: {}
+[24.086593] (-) TimerEvent: {}
+[24.187342] (-) TimerEvent: {}
+[24.288043] (-) TimerEvent: {}
+[24.388735] (-) TimerEvent: {}
+[24.489588] (-) TimerEvent: {}
+[24.590278] (-) TimerEvent: {}
+[24.691181] (-) TimerEvent: {}
+[24.791879] (-) TimerEvent: {}
+[24.892658] (-) TimerEvent: {}
+[24.943363] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_capture_node\x1b[0m\n'}
+[24.992823] (-) TimerEvent: {}
+[25.093452] (-) TimerEvent: {}
+[25.194206] (-) TimerEvent: {}
+[25.295180] (-) TimerEvent: {}
+[25.396111] (-) TimerEvent: {}
+[25.497031] (-) TimerEvent: {}
+[25.597854] (-) TimerEvent: {}
+[25.698803] (-) TimerEvent: {}
+[25.799552] (-) TimerEvent: {}
+[25.900303] (-) TimerEvent: {}
+[26.001008] (-) TimerEvent: {}
+[26.101915] (-) TimerEvent: {}
+[26.202769] (-) TimerEvent: {}
+[26.303487] (-) TimerEvent: {}
+[26.404420] (-) TimerEvent: {}
+[26.505115] (-) TimerEvent: {}
+[26.605873] (-) TimerEvent: {}
+[26.706602] (-) TimerEvent: {}
+[26.807443] (-) TimerEvent: {}
+[26.908264] (-) TimerEvent: {}
+[27.009092] (-) TimerEvent: {}
+[27.109924] (-) TimerEvent: {}
+[27.210763] (-) TimerEvent: {}
+[27.311729] (-) TimerEvent: {}
+[27.387918] (vision) StdoutLine: {'line': b'[100%] Built target vision_capture_node\n'}
+[27.411922] (-) TimerEvent: {}
+[27.430826] (vision) CommandEnded: {'returncode': 0}
+[27.512088] (-) TimerEvent: {}
+[27.527476] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[27.564160] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1681'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fd6a7f458263967af34f885c651e7dcc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/1681,unix/vladi:/tmp/.ICE-unix/1681'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f485f63e_2f64_49d6_9f80_0e01b9519676'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JT4WB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fd6a7f458263967af34f885c651e7dcc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.597646] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.598653] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/lib/vision/vision_capture_node\n'}
+[27.604565] (vision) StdoutLine: {'line': b'-- Set runtime path of "/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/lib/vision/vision_capture_node" to ""\n'}
+[27.605392] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[27.606118] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[27.606787] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[27.607432] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[27.608007] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/path.sh\n'}
+[27.608641] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/environment/path.dsv\n'}
+[27.609346] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.bash\n'}
+[27.609913] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.sh\n'}
+[27.610540] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.zsh\n'}
+[27.611333] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/local_setup.dsv\n'}
+[27.612251] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/package.dsv\n'}
+[27.612714] (-) TimerEvent: {}
+[27.613172] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[27.613945] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[27.614740] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[27.615630] (vision) StdoutLine: {'line': b'-- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision/share/vision/package.xml\n'}
+[27.622166] (vision) CommandEnded: {'returncode': 0}
+[27.713045] (-) TimerEvent: {}
+[27.814569] (-) TimerEvent: {}
+[27.915749] (-) TimerEvent: {}
+[28.017260] (-) TimerEvent: {}
+[28.118256] (-) TimerEvent: {}
+[28.219729] (-) TimerEvent: {}
+[28.321850] (-) TimerEvent: {}
+[28.423983] (-) TimerEvent: {}
+[28.434021] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[28.436922] (-) EventReactorShutdown: {}

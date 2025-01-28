@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.002590] (vision) JobStarted: {'identifier': 'vision'}
+[0.099207] (-) TimerEvent: {}
+[0.199982] (-) TimerEvent: {}
+[0.261884] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.264513] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.267417] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1481'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b66102f5062900094a8b2e866523a593'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/1481,unix/vladi:/tmp/.ICE-unix/1481'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59850624_08ee_47c8_8234_9c5cab5803f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKYOC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.447'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b66102f5062900094a8b2e866523a593'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300232] (-) TimerEvent: {}
+[0.401286] (-) TimerEvent: {}
+[0.480779] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_capture_subscriber_node\x1b[0m\n'}
+[0.503948] (-) TimerEvent: {}
+[0.563284] (vision) StdoutLine: {'line': b'[ 50%] Built target image_capture_node\n'}
+[0.604192] (-) TimerEvent: {}
+[0.614956] (vision) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o\x1b[0m\n'}
+[0.704359] (-) TimerEvent: {}
+[0.805091] (-) TimerEvent: {}
+[0.905895] (-) TimerEvent: {}
+[1.006776] (-) TimerEvent: {}
+[1.107688] (-) TimerEvent: {}
+[1.208478] (-) TimerEvent: {}
+[1.309368] (-) TimerEvent: {}
+[1.410232] (-) TimerEvent: {}
+[1.511112] (-) TimerEvent: {}
+[1.612072] (-) TimerEvent: {}
+[1.712863] (-) TimerEvent: {}
+[1.813644] (-) TimerEvent: {}
+[1.914400] (-) TimerEvent: {}
+[2.015157] (-) TimerEvent: {}
+[2.115904] (-) TimerEvent: {}
+[2.216604] (-) TimerEvent: {}
+[2.317325] (-) TimerEvent: {}
+[2.418248] (-) TimerEvent: {}
+[2.518995] (-) TimerEvent: {}
+[2.619695] (-) TimerEvent: {}
+[2.720443] (-) TimerEvent: {}
+[2.821125] (-) TimerEvent: {}
+[2.921872] (-) TimerEvent: {}
+[3.022617] (-) TimerEvent: {}
+[3.123328] (-) TimerEvent: {}
+[3.224080] (-) TimerEvent: {}
+[3.324937] (-) TimerEvent: {}
+[3.425743] (-) TimerEvent: {}
+[3.526645] (-) TimerEvent: {}
+[3.627410] (-) TimerEvent: {}
+[3.728176] (-) TimerEvent: {}
+[3.828998] (-) TimerEvent: {}
+[3.929722] (-) TimerEvent: {}
+[4.030447] (-) TimerEvent: {}
+[4.131179] (-) TimerEvent: {}
+[4.231937] (-) TimerEvent: {}
+[4.332715] (-) TimerEvent: {}
+[4.433457] (-) TimerEvent: {}
+[4.534172] (-) TimerEvent: {}
+[4.634941] (-) TimerEvent: {}
+[4.735701] (-) TimerEvent: {}
+[4.836473] (-) TimerEvent: {}
+[4.937239] (-) TimerEvent: {}
+[5.038003] (-) TimerEvent: {}
+[5.138752] (-) TimerEvent: {}
+[5.239499] (-) TimerEvent: {}
+[5.340269] (-) TimerEvent: {}
+[5.441027] (-) TimerEvent: {}
+[5.541750] (-) TimerEvent: {}
+[5.642558] (-) TimerEvent: {}
+[5.743296] (-) TimerEvent: {}
+[5.844100] (-) TimerEvent: {}
+[5.944801] (-) TimerEvent: {}
+[6.045585] (-) TimerEvent: {}
+[6.146306] (-) TimerEvent: {}
+[6.247146] (-) TimerEvent: {}
+[6.347921] (-) TimerEvent: {}
+[6.448796] (-) TimerEvent: {}
+[6.549650] (-) TimerEvent: {}
+[6.650538] (-) TimerEvent: {}
+[6.751387] (-) TimerEvent: {}
+[6.852259] (-) TimerEvent: {}
+[6.953167] (-) TimerEvent: {}
+[7.054043] (-) TimerEvent: {}
+[7.154918] (-) TimerEvent: {}
+[7.255796] (-) TimerEvent: {}
+[7.356671] (-) TimerEvent: {}
+[7.457553] (-) TimerEvent: {}
+[7.558433] (-) TimerEvent: {}
+[7.659294] (-) TimerEvent: {}
+[7.760138] (-) TimerEvent: {}
+[7.861062] (-) TimerEvent: {}
+[7.961903] (-) TimerEvent: {}
+[8.062765] (-) TimerEvent: {}
+[8.163602] (-) TimerEvent: {}
+[8.264495] (-) TimerEvent: {}
+[8.365358] (-) TimerEvent: {}
+[8.466231] (-) TimerEvent: {}
+[8.567227] (-) TimerEvent: {}
+[8.668219] (-) TimerEvent: {}
+[8.769172] (-) TimerEvent: {}
+[8.870052] (-) TimerEvent: {}
+[8.970980] (-) TimerEvent: {}
+[9.071885] (-) TimerEvent: {}
+[9.172662] (-) TimerEvent: {}
+[9.273366] (-) TimerEvent: {}
+[9.374152] (-) TimerEvent: {}
+[9.475062] (-) TimerEvent: {}
+[9.576006] (-) TimerEvent: {}
+[9.676901] (-) TimerEvent: {}
+[9.777755] (-) TimerEvent: {}
+[9.878681] (-) TimerEvent: {}
+[9.979619] (-) TimerEvent: {}
+[10.080596] (-) TimerEvent: {}
+[10.181475] (-) TimerEvent: {}
+[10.282167] (-) TimerEvent: {}
+[10.382944] (-) TimerEvent: {}
+[10.483727] (-) TimerEvent: {}
+[10.584560] (-) TimerEvent: {}
+[10.685440] (-) TimerEvent: {}
+[10.786247] (-) TimerEvent: {}
+[10.887097] (-) TimerEvent: {}
+[10.987897] (-) TimerEvent: {}
+[11.088736] (-) TimerEvent: {}
+[11.189551] (-) TimerEvent: {}
+[11.290361] (-) TimerEvent: {}
+[11.391248] (-) TimerEvent: {}
+[11.492112] (-) TimerEvent: {}
+[11.592828] (-) TimerEvent: {}
+[11.693532] (-) TimerEvent: {}
+[11.794287] (-) TimerEvent: {}
+[11.895203] (-) TimerEvent: {}
+[11.996057] (-) TimerEvent: {}
+[12.096874] (-) TimerEvent: {}
+[12.197657] (-) TimerEvent: {}
+[12.298589] (-) TimerEvent: {}
+[12.399272] (-) TimerEvent: {}
+[12.499976] (-) TimerEvent: {}
+[12.600702] (-) TimerEvent: {}
+[12.701544] (-) TimerEvent: {}
+[12.802345] (-) TimerEvent: {}
+[12.903358] (-) TimerEvent: {}
+[13.004208] (-) TimerEvent: {}
+[13.105075] (-) TimerEvent: {}
+[13.206074] (-) TimerEvent: {}
+[13.307032] (-) TimerEvent: {}
+[13.407952] (-) TimerEvent: {}
+[13.508986] (-) TimerEvent: {}
+[13.609959] (-) TimerEvent: {}
+[13.710883] (-) TimerEvent: {}
+[13.811860] (-) TimerEvent: {}
+[13.912855] (-) TimerEvent: {}
+[14.013582] (-) TimerEvent: {}
+[14.114405] (-) TimerEvent: {}
+[14.215247] (-) TimerEvent: {}
+[14.306683] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:16:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ConstMessageSharedPtr = class std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.307909] (vision) StderrLine: {'line': b'   16 |     rclcpp::Subscription<sensor_msgs::msg::Image>::ConstMessageSharedPtr \x1b[01;35m\x1b[K_subscrption\x1b[m\x1b[K;\n'}
+[14.308534] (vision) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.309075] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[14.309558] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[14.310033] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[14.310497] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[14.310930] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[14.311410] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[14.311823] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[14.312220] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.312681] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[14.313089] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:100:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.313483] (vision) StderrLine: {'line': b'  100 |   using \x1b[01;36m\x1b[KConstMessageSharedPtr\x1b[m\x1b[K [[deprecated]] = std::shared_ptr<const ROSMessageType>;\n'}
+[14.313881] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.315380] (-) TimerEvent: {}
+[14.365237] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImageSubscriber::ImageSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.367789] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >::ConstMessageSharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[14.368300] (vision) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.368800] (vision) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.369218] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[14.369626] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[14.370005] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[14.370414] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.370835] (vision) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[14.371228] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.371612] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.372041] (vision) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >&; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.372541] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.373001] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:28:9:\x1b[m\x1b[K   required from here\n'}
+[14.373395] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.373826] (vision) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[14.374227] (vision) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.374617] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.375024] (vision) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[14.375414] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.375794] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.376182] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:28:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.376628] (vision) StderrLine: {'line': b'   28 |         \x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.377023] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[14.377409] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[14.377791] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[14.378340] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[14.378875] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.379438] (vision) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[14.379983] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.380575] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.381157] (vision) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.381805] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.382592] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:28:9:\x1b[m\x1b[K   required from here\n'}
+[14.383076] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.383497] (vision) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[14.383867] (vision) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.384308] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.384799] (vision) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[14.385202] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.385594] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.386007] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:28:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.386413] (vision) StderrLine: {'line': b'   28 |         \x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.386779] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[14.387169] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[14.387554] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[14.387959] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[14.388323] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.388767] (vision) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[14.389159] (vision) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.389566] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.389977] (vision) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[14.390391] (vision) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.390779] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = const sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.391173] (vision) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[14.391559] (vision) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.391959] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.392359] (vision) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[14.392766] (vision) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[14.415618] (-) TimerEvent: {}
+[14.516318] (-) TimerEvent: {}
+[14.617058] (-) TimerEvent: {}
+[14.717800] (-) TimerEvent: {}
+[14.818569] (-) TimerEvent: {}
+[14.919334] (-) TimerEvent: {}
+[15.020065] (-) TimerEvent: {}
+[15.120823] (-) TimerEvent: {}
+[15.221556] (-) TimerEvent: {}
+[15.322272] (-) TimerEvent: {}
+[15.423009] (-) TimerEvent: {}
+[15.523710] (-) TimerEvent: {}
+[15.624531] (-) TimerEvent: {}
+[15.725403] (-) TimerEvent: {}
+[15.826459] (-) TimerEvent: {}
+[15.927414] (-) TimerEvent: {}
+[16.028340] (-) TimerEvent: {}
+[16.129304] (-) TimerEvent: {}
+[16.230219] (-) TimerEvent: {}
+[16.331042] (-) TimerEvent: {}
+[16.431849] (-) TimerEvent: {}
+[16.532697] (-) TimerEvent: {}
+[16.633430] (-) TimerEvent: {}
+[16.734149] (-) TimerEvent: {}
+[16.834886] (-) TimerEvent: {}
+[16.936011] (-) TimerEvent: {}
+[17.036925] (-) TimerEvent: {}
+[17.138006] (-) TimerEvent: {}
+[17.238893] (-) TimerEvent: {}
+[17.339742] (-) TimerEvent: {}
+[17.440635] (-) TimerEvent: {}
+[17.541533] (-) TimerEvent: {}
+[17.642362] (-) TimerEvent: {}
+[17.743222] (-) TimerEvent: {}
+[17.843941] (-) TimerEvent: {}
+[17.944704] (-) TimerEvent: {}
+[18.045469] (-) TimerEvent: {}
+[18.146364] (-) TimerEvent: {}
+[18.247119] (-) TimerEvent: {}
+[18.347809] (-) TimerEvent: {}
+[18.448694] (-) TimerEvent: {}
+[18.549391] (-) TimerEvent: {}
+[18.650118] (-) TimerEvent: {}
+[18.750907] (-) TimerEvent: {}
+[18.851614] (-) TimerEvent: {}
+[18.952320] (-) TimerEvent: {}
+[19.053127] (-) TimerEvent: {}
+[19.153868] (-) TimerEvent: {}
+[19.254584] (-) TimerEvent: {}
+[19.355327] (-) TimerEvent: {}
+[19.456057] (-) TimerEvent: {}
+[19.556790] (-) TimerEvent: {}
+[19.657514] (-) TimerEvent: {}
+[19.758273] (-) TimerEvent: {}
+[19.859023] (-) TimerEvent: {}
+[19.959769] (-) TimerEvent: {}
+[20.060541] (-) TimerEvent: {}
+[20.161307] (-) TimerEvent: {}
+[20.262083] (-) TimerEvent: {}
+[20.362828] (-) TimerEvent: {}
+[20.463584] (-) TimerEvent: {}
+[20.564352] (-) TimerEvent: {}
+[20.665130] (-) TimerEvent: {}
+[20.766019] (-) TimerEvent: {}
+[20.866737] (-) TimerEvent: {}
+[20.967406] (-) TimerEvent: {}
+[21.068137] (-) TimerEvent: {}
+[21.168915] (-) TimerEvent: {}
+[21.269851] (-) TimerEvent: {}
+[21.370762] (-) TimerEvent: {}
+[21.471426] (-) TimerEvent: {}
+[21.572192] (-) TimerEvent: {}
+[21.672932] (-) TimerEvent: {}
+[21.773644] (-) TimerEvent: {}
+[21.874421] (-) TimerEvent: {}
+[21.975148] (-) TimerEvent: {}
+[22.075891] (-) TimerEvent: {}
+[22.176596] (-) TimerEvent: {}
+[22.277462] (-) TimerEvent: {}
+[22.378199] (-) TimerEvent: {}
+[22.478915] (-) TimerEvent: {}
+[22.579648] (-) TimerEvent: {}
+[22.680451] (-) TimerEvent: {}
+[22.781221] (-) TimerEvent: {}
+[22.882115] (-) TimerEvent: {}
+[22.982905] (-) TimerEvent: {}
+[23.083653] (-) TimerEvent: {}
+[23.184415] (-) TimerEvent: {}
+[23.285137] (-) TimerEvent: {}
+[23.385881] (-) TimerEvent: {}
+[23.486728] (-) TimerEvent: {}
+[23.587535] (-) TimerEvent: {}
+[23.688245] (-) TimerEvent: {}
+[23.789032] (-) TimerEvent: {}
+[23.889714] (-) TimerEvent: {}
+[23.990606] (-) TimerEvent: {}
+[24.091352] (-) TimerEvent: {}
+[24.192096] (-) TimerEvent: {}
+[24.292837] (-) TimerEvent: {}
+[24.393622] (-) TimerEvent: {}
+[24.494331] (-) TimerEvent: {}
+[24.595045] (-) TimerEvent: {}
+[24.695771] (-) TimerEvent: {}
+[24.796659] (-) TimerEvent: {}
+[24.897373] (-) TimerEvent: {}
+[24.987523] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_capture_subscriber_node.dir/build.make:76: CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o] Error 1\n'}
+[24.988500] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_capture_subscriber_node.dir/all] Error 2\n'}
+[24.989380] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.995693] (vision) CommandEnded: {'returncode': 2}
+[24.998073] (-) TimerEvent: {}
+[25.098956] (-) TimerEvent: {}
+[25.200360] (-) TimerEvent: {}
+[25.302438] (-) TimerEvent: {}
+[25.403861] (-) TimerEvent: {}
+[25.481864] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[25.494075] (-) EventReactorShutdown: {}

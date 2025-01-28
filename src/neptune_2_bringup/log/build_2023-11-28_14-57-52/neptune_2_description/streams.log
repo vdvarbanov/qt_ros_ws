@@ -1,0 +1,28 @@
+[0.440s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description -- -j8 -l8
+[0.554s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.662s] -- Configuring done
+[1.675s] -- Generating done
+[1.680s] -- Build files have been written to: /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description
+[1.781s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description -- -j8 -l8
+[1.940s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description
+[1.975s] -- Install configuration: ""
+[1.976s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf
+[1.977s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//urdf/neptune_2.urdf
+[1.977s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//launch
+[1.978s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description//launch/display.launch.xml
+[1.979s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/package_run_dependencies/neptune_2_description
+[1.979s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/parent_prefix_path/neptune_2_description
+[1.980s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/ament_prefix_path.sh
+[1.981s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/ament_prefix_path.dsv
+[1.982s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/path.sh
+[1.982s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/environment/path.dsv
+[1.983s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.bash
+[1.984s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.sh
+[1.984s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.zsh
+[1.985s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/local_setup.dsv
+[1.985s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.dsv
+[1.986s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/ament_index/resource_index/packages/neptune_2_description
+[1.986s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/cmake/neptune_2_descriptionConfig.cmake
+[1.987s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/cmake/neptune_2_descriptionConfig-version.cmake
+[1.987s] -- Up-to-date: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description/share/neptune_2_description/package.xml
+[1.996s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_description

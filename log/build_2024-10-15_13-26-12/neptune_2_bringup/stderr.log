@@ -1,0 +1,8 @@
+[0mWARNING: Target "cam_process" requests linking to directory "/usr/include/opencv4".  Targets may link only to libraries.  CMake is dropping the item.[0m
+[01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/cam_process.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
+    8 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K // Using image_transport allows us to publish and subscribe to compressed image streams in ROS2
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cam_process.dir/build.make:76: CMakeFiles/cam_process.dir/src/cam_process.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cam_process.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

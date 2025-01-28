@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cam_process.dir/src/cam_process.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable msg_to_pcl2[0m
+[ 75%] Built target msg_to_pcl2

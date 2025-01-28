@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="camera_x_dim" value="0.01" />
+    <xacro:property name="camera_y_dim" value="0.1"  />
+    <xacro:property name="camera_z_dim" value="0.05" />
+
+
+
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="${camera_x_dim} ${camera_y_dim} ${camera_z_dim}"/>
+            </geometry>
+            <origin xyz="${camera_x_dim / 2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="light_gray" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_x_dim} ${camera_y_dim} ${camera_z_dim}"/>
+            </geometry>
+        </collision>
+        <xacro:box_inertia 
+            m="0.1" 
+            l= "${camera_x_dim}" w="${camera_y_dim}" h="${camera_z_dim}" 
+            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"
+        />
+    </link>
+
+    <link name="camera_link_optical">
+        <!--Needed to work with openCV-->
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0.0 0.0 0.0" rpy="${-pi/2} 0.0 ${-pi/2}"/>        
+    </joint>
+    <joint name="base_camera_joint" type="fixed">      
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin xyz= "${base_length / 2}
+                      0 
+                      ${base_height / 2}"
+                rpy="0.0 0.0 0.0"/>
+    </joint>
+</robot>

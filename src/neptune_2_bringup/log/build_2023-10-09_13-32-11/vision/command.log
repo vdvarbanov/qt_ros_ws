@@ -1,0 +1,2 @@
+Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8
+Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8

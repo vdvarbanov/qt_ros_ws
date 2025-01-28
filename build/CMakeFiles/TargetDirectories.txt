@@ -1,0 +1,11 @@
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/uninstall.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/neptune_2_bringup_uninstall.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/msg_to_pcl2.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/cam_cap.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/test.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/edit_cache.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/rebuild_cache.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/list_install_components.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/install.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/install/local.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,12 @@
+[0.057s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[0.205s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_process.dir/src/cam_process.cpp.o[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target msg_to_pcl2[0m
+[0.392s] [ 75%] Built target msg_to_pcl2
+[0.840s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/cam_process.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge/cv_bridge.h: No such file or directory
+[0.840s]     6 | #include [01;31m[K<cv_bridge/cv_bridge/cv_bridge.h>[m[K // cv_bridge converts between ROS 2 image messages and OpenCV image representations.
+[0.840s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.840s] compilation terminated.
+[0.867s] gmake[2]: *** [CMakeFiles/cam_process.dir/build.make:76: CMakeFiles/cam_process.dir/src/cam_process.cpp.o] Error 1
+[0.867s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cam_process.dir/all] Error 2
+[0.868s] gmake: *** [Makefile:146: all] Error 2
+[0.882s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '2': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8

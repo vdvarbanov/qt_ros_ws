@@ -1,0 +1,42 @@
+[0.037s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/st_ligth -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth
+[3.205s] -- The C compiler identification is GNU 11.4.0
+[5.166s] -- The CXX compiler identification is GNU 11.4.0
+[5.261s] -- Detecting C compiler ABI info
+[5.463s] -- Detecting C compiler ABI info - done
+[5.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.475s] -- Detecting C compile features
+[5.494s] -- Detecting C compile features - done
+[5.498s] -- Detecting CXX compiler ABI info
+[5.644s] -- Detecting CXX compiler ABI info - done
+[5.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.653s] -- Detecting CXX compile features
+[5.654s] -- Detecting CXX compile features - done
+[5.722s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.979s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.237s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.463s] -- Added test 'lint_cmake' to check CMake code style
+[6.465s] -- Added test 'xmllint' to check XML markup files
+[6.467s] -- Configuring done
+[6.471s] -- Generating done
+[6.473s] -- Build files have been written to: /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth
+[6.478s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/st_ligth -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth
+[6.480s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth -- -j8 -l8
+[6.524s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth -- -j8 -l8
+[6.549s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth
+[6.559s] -- Install configuration: ""
+[6.559s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/package_run_dependencies/st_ligth
+[6.559s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/parent_prefix_path/st_ligth
+[6.560s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/ament_prefix_path.sh
+[6.560s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/ament_prefix_path.dsv
+[6.560s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/path.sh
+[6.560s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/environment/path.dsv
+[6.561s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.bash
+[6.561s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.sh
+[6.561s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.zsh
+[6.561s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/local_setup.dsv
+[6.562s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.dsv
+[6.562s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/ament_index/resource_index/packages/st_ligth
+[6.562s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/cmake/st_ligthConfig.cmake
+[6.562s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/cmake/st_ligthConfig-version.cmake
+[6.562s] -- Installing: /home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth/share/st_ligth/package.xml
+[6.565s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/st_ligth

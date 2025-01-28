@@ -1,0 +1,7 @@
+[0.195s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup
+[0.221s] [31mCMake Error at CMakeLists.txt:17 (endif):
+[0.221s]   Flow control statements are not properly nested.
+[0.222s] 
+[0.222s] [0m
+[0.230s] -- Configuring incomplete, errors occurred!
+[0.232s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '1': /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup

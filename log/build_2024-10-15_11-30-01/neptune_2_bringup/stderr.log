@@ -1,0 +1,12 @@
+[01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/cam_process.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+    6 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K // cv_bridge converts between ROS 2 image messages and OpenCV image representations.
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cam_process.dir/build.make:76: CMakeFiles/cam_process.dir/src/cam_process.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cam_process.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:[m[K In member function ‘[01m[Kvoid MSGToPCL2::on_receive(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:123:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |         for (int i = 0; [01;35m[Ki < num_rays[m[K; ++i)
+      |                         [01;35m[K~~^~~~~~~~~~[m[K
+gmake: *** [Makefile:146: all] Error 2

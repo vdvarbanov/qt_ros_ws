@@ -1,0 +1,102 @@
+[0.020s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target cam_cap[0m
+[0.133s] [ 50%] Built target cam_cap
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target msg_to_pcl2[0m
+[0.317s] [ 75%] [32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o[0m
+[11.918s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:[m[K In member function ‘[01m[Kvoid MSGToPCL2::on_receive(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.918s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:123:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.918s]   123 |         for (int i = 0; [01;35m[Ki < num_rays[m[K; ++i)
+[11.919s]       |                         [01;35m[K~~^~~~~~~~~~[m[K
+[11.921s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:163:79:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kdouble[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’)
+[11.922s]   163 | 1 = (base*(uv_rect_tmp.x-cam_model.cx()))/([32m[Kcam_model.fx()[m[K [01;31m[K*[m[K[34m[K cotan_alpha_[m[Kx-(uv_rect_tmp.x-cam_model.cx()));
+[11.922s]       |                                            [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K[34m[K~~~~~~~~~~~~~[m[K
+[11.922s]       |                                                        [32m[K|[m[K   [34m[K|[m[K
+[11.922s]       |                                                        [32m[K|[m[K   [34m[Kstd::vector<double, std::allocator<double> >[m[K
+[11.923s]       |                                                        [32m[Kdouble[m[K
+[11.923s] 
+[11.923s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.923s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.923s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.923s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[11.924s]   392 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[11.924s]       |     [01;36m[K^~~~~~~~[m[K
+[11.924s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.924s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:163:80:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[11.924s]   163 |  = (base*(uv_rect_tmp.x-cam_model.cx()))/(cam_model.fx() *[01;36m[K cotan_alpha_[m[Kx-(uv_rect_tmp.x-cam_model.cx()));
+[11.925s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.925s] 
+[11.925s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.925s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.925s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.926s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+[11.926s]   401 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+[11.926s]       |     [01;36m[K^~~~~~~~[m[K
+[11.926s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.926s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:163:80:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[11.927s]   163 |  = (base*(uv_rect_tmp.x-cam_model.cx()))/(cam_model.fx() *[01;36m[K cotan_alpha_[m[Kx-(uv_rect_tmp.x-cam_model.cx()));
+[11.927s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.927s] 
+[11.927s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.927s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.927s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.928s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+[11.928s]   410 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+[11.928s]       |     [01;36m[K^~~~~~~~[m[K
+[11.928s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.928s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:163:80:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[11.928s]   163 |  = (base*(uv_rect_tmp.x-cam_model.cx()))/(cam_model.fx() *[01;36m[K cotan_alpha_[m[Kx-(uv_rect_tmp.x-cam_model.cx()));
+[11.928s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.929s] 
+[11.929s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:166:62:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kdouble[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’)
+[11.929s]   166 |          float z_1 = (base*cam_model.fx())/([32m[Kcam_model.fx()[m[K[01;31m[K*[m[K[34m[Kcotan_alpha_x[m[K-(uv_rect_tmp.x-cam_model.cx()));
+[11.929s]       |                                             [32m[K~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~~[m[K
+[11.929s]       |                                                         [32m[K|[m[K  [34m[K|[m[K
+[11.929s]       |                                                         [32m[K|[m[K  [34m[Kstd::vector<double, std::allocator<double> >[m[K
+[11.930s]       |                                                         [32m[Kdouble[m[K
+[11.930s] 
+[11.930s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.930s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.930s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.930s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[11.931s]   392 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[11.931s]       |     [01;36m[K^~~~~~~~[m[K
+[11.931s] [01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.931s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:166:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[11.931s]   166 |         float z_1 = (base*cam_model.fx())/(cam_model.fx()*[01;36m[Kcotan_alpha_x[m[K-(uv_rect_tmp.x-cam_model.cx()));
+[11.931s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.932s] 
+[11.932s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.932s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.932s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.932s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+[11.932s]   401 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+[11.933s]       |     [01;36m[K^~~~~~~~[m[K
+[11.933s] [01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.933s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:166:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+[11.933s]   166 |         float z_1 = (base*cam_model.fx())/(cam_model.fx()*[01;36m[Kcotan_alpha_x[m[K-(uv_rect_tmp.x-cam_model.cx()));
+[11.933s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.933s] 
+[11.934s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[11.934s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[11.934s]                  from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:9[m[K:
+[11.934s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+[11.934s]   410 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+[11.934s]       |     [01;36m[K^~~~~~~~[m[K
+[11.935s] [01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.935s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:166:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[11.935s]   166 |         float z_1 = (base*cam_model.fx())/(cam_model.fx()*[01;36m[Kcotan_alpha_x[m[K-(uv_rect_tmp.x-cam_model.cx()));
+[11.935s]       |                                                           [01;36m[K^~~~~~~~~~~~~[m[K
+[11.935s] 
+[11.935s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:163:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.936s]   163 |             float [01;35m[Kx_1[m[K = (base*(uv_rect_tmp.x-cam_model.cx()))/(cam_model.fx() * cotan_alpha_x-(uv_rect_tmp.x-cam_model.cx()));
+[11.936s]       |                   [01;35m[K^~~[m[K
+[11.936s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:165:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.936s]   165 |             float [01;35m[Ky_1[m[K = (base*(uv_rect_tmp.y-cam_model.cy()))/(cam_model.fy()*cotan_alpha_y[i]-(uv_rect_tmp.x-cam_model.cx()));
+[11.936s]       |                   [01;35m[K^~~[m[K
+[11.936s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:166:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.936s]   166 |             float [01;35m[Kz_1[m[K = (base*cam_model.fx())/(cam_model.fx()*cotan_alpha_x-(uv_rect_tmp.x-cam_model.cx()));
+[11.936s]       |                   [01;35m[K^~~[m[K
+[15.458s] gmake[2]: *** [CMakeFiles/msg_to_pcl2.dir/build.make:76: CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o] Error 1
+[15.458s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/msg_to_pcl2.dir/all] Error 2
+[15.458s] gmake: *** [Makefile:146: all] Error 2
+[15.461s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '2': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8

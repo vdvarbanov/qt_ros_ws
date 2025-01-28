@@ -1,0 +1,9 @@
+[0mWARNING: Target "cam_process" requests linking to directory "/usr/include/opencv4".  Targets may link only to libraries.  CMake is dropping the item.[0m
+In file included from [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/cam_process.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:46:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge_export.h: No such file or directory
+   46 | #include [01;31m[K<cv_bridge/cv_bridge_export.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cam_process.dir/build.make:76: CMakeFiles/cam_process.dir/src/cam_process.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cam_process.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

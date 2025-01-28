@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/msg_to_pcl2.dir/build.make:76: CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msg_to_pcl2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

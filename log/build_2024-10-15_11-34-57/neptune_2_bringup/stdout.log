@@ -1,0 +1,3 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cam_process.dir/src/cam_process.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target msg_to_pcl2[0m
+[ 75%] Built target msg_to_pcl2

@@ -1,0 +1,26 @@
+[0.277s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision
+[0.332s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.921s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.958s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.104s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.117s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.146s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.552s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.809s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.413s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.480s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[3.662s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[3.663s]   ament_cmake_symlink_install_targets() 'vision_capture_node,' is not a
+[3.664s]   target
+[3.664s] Call Stack (most recent call first):
+[3.665s]   /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[3.665s]   CMakeLists.txt:30 (install)
+[3.666s] 
+[3.666s] [0m
+[3.666s] -- Configuring incomplete, errors occurred!
+[3.667s] See also "/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision/CMakeFiles/CMakeOutput.log".
+[3.696s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision

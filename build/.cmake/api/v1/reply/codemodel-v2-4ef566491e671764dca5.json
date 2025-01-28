@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-283b679636d4789ba020.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "neptune_2_bringup",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cam_cap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cam_cap-Debug-10edc6ff2de435220f23.json",
+					"name" : "cam_cap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_to_pcl2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_to_pcl2-Debug-49a158431a31b5e4228a.json",
+					"name" : "msg_to_pcl2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "neptune_2_bringup_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-neptune_2_bringup_uninstall-Debug-9411257b096be5ba8d89.json",
+					"name" : "neptune_2_bringup_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-77a937b2b8964b5fb89b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vladi/Desktop/ros2_commands/qt_ros_ws/build",
+		"source" : "/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

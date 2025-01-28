@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o[0m
+[1.930s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/msg_to_pcl2.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/sensor_msgs/point_cloud2_iterator.hpp: No such file or directory
+[1.930s]    18 | #include [01;31m[K"sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp"[m[K
+[1.931s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.931s] compilation terminated.
+[1.951s] gmake[2]: *** [CMakeFiles/msg_to_pcl2.dir/build.make:76: CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o] Error 1
+[1.952s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msg_to_pcl2.dir/all] Error 2
+[1.952s] gmake: *** [Makefile:146: all] Error 2
+[1.955s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '2': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/vision:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/st_ligth:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8

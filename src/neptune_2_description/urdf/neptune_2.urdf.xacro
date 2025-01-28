@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot name="neptun_2" xmlns:xacro='http://www.ros.org/wiki/xacro'>
+    <xacro:include filename="common_properties.xacro" />
+    <xacro:include filename="mobile.xacro"/>
+    <xacro:include filename="neptune_2_gazebo.xacro"/>
+    <xacro:include filename="camera.xacro" />
+    <xacro:include filename="projector.xacro" />
+</robot>

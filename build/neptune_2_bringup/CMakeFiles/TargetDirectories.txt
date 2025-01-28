@@ -1,0 +1,11 @@
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/uninstall.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/neptune_2_bringup_uninstall.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/msg_to_pcl2.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/cam_cap.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/test.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/edit_cache.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/rebuild_cache.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/list_install_components.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/install.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/install/local.dir
+/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup/CMakeFiles/install/strip.dir

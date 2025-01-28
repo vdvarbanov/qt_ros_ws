@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.000772] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.000947] (vision) JobStarted: {'identifier': 'vision'}
+[0.097490] (-) TimerEvent: {}
+[0.198282] (-) TimerEvent: {}
+[0.248853] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.251456] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.255255] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vladi'), ('LC_TIME', 'bg_BG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vladi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bg_BG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1481'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b66102f5062900094a8b2e866523a593'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vladi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vladi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vladi:@/tmp/.ICE-unix/1481,unix/vladi:/tmp/.ICE-unix/1481'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bg_BG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/551adc3f_23c4_410a_b00e_9a7ef7e46bb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'bg_BG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKYOC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.218'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bg_BG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bg_BG.UTF-8'), ('LC_IDENTIFICATION', 'bg_BG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b66102f5062900094a8b2e866523a593'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bg_BG.UTF-8'), ('LC_PAPER', 'bg_BG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.298469] (-) TimerEvent: {}
+[0.362208] (vision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.398673] (-) TimerEvent: {}
+[0.499610] (-) TimerEvent: {}
+[0.600529] (-) TimerEvent: {}
+[0.701468] (-) TimerEvent: {}
+[0.802423] (-) TimerEvent: {}
+[0.903345] (-) TimerEvent: {}
+[0.962983] (vision) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.003558] (-) TimerEvent: {}
+[1.005052] (vision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.103767] (-) TimerEvent: {}
+[1.144883] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.156905] (vision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.194951] (vision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.203973] (-) TimerEvent: {}
+[1.251795] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304199] (-) TimerEvent: {}
+[1.327523] (vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404414] (-) TimerEvent: {}
+[1.505205] (-) TimerEvent: {}
+[1.605053] (vision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.606159] (-) TimerEvent: {}
+[1.610968] (vision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.706464] (-) TimerEvent: {}
+[1.807190] (-) TimerEvent: {}
+[1.907906] (-) TimerEvent: {}
+[2.008611] (-) TimerEvent: {}
+[2.109282] (-) TimerEvent: {}
+[2.136892] (vision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.209493] (-) TimerEvent: {}
+[2.310172] (-) TimerEvent: {}
+[2.410905] (-) TimerEvent: {}
+[2.511667] (-) TimerEvent: {}
+[2.612425] (-) TimerEvent: {}
+[2.713190] (-) TimerEvent: {}
+[2.813971] (-) TimerEvent: {}
+[2.903751] (vision) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.914127] (-) TimerEvent: {}
+[3.014854] (-) TimerEvent: {}
+[3.115636] (-) TimerEvent: {}
+[3.216421] (-) TimerEvent: {}
+[3.317175] (-) TimerEvent: {}
+[3.418067] (-) TimerEvent: {}
+[3.507072] (vision) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.518241] (-) TimerEvent: {}
+[3.570456] (vision) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[3.618465] (-) TimerEvent: {}
+[3.719139] (-) TimerEvent: {}
+[3.754798] (vision) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.819341] (-) TimerEvent: {}
+[3.920020] (-) TimerEvent: {}
+[4.020725] (-) TimerEvent: {}
+[4.064499] (vision) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.065393] (vision) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.066028] (vision) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.069320] (vision) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.074971] (vision) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.075533] (vision) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.077780] (vision) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.087246] (vision) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.120976] (-) TimerEvent: {}
+[4.167751] (vision) StdoutLine: {'line': b'-- Generating done\n'}
+[4.180661] (vision) StdoutLine: {'line': b'-- Build files have been written to: /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision\n'}
+[4.221182] (-) TimerEvent: {}
+[4.287771] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_capture_node\x1b[0m\n'}
+[4.321446] (-) TimerEvent: {}
+[4.331155] (vision) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o\x1b[0m\n'}
+[4.390376] (vision) StdoutLine: {'line': b'[ 75%] Built target image_capture_node\n'}
+[4.421632] (-) TimerEvent: {}
+[4.522367] (-) TimerEvent: {}
+[4.623049] (-) TimerEvent: {}
+[4.723874] (-) TimerEvent: {}
+[4.824729] (-) TimerEvent: {}
+[4.925514] (-) TimerEvent: {}
+[5.026321] (-) TimerEvent: {}
+[5.127125] (-) TimerEvent: {}
+[5.227989] (-) TimerEvent: {}
+[5.328859] (-) TimerEvent: {}
+[5.429907] (-) TimerEvent: {}
+[5.530750] (-) TimerEvent: {}
+[5.631539] (-) TimerEvent: {}
+[5.732363] (-) TimerEvent: {}
+[5.833196] (-) TimerEvent: {}
+[5.934018] (-) TimerEvent: {}
+[6.034859] (-) TimerEvent: {}
+[6.135688] (-) TimerEvent: {}
+[6.236553] (-) TimerEvent: {}
+[6.337398] (-) TimerEvent: {}
+[6.438239] (-) TimerEvent: {}
+[6.539264] (-) TimerEvent: {}
+[6.640214] (-) TimerEvent: {}
+[6.741150] (-) TimerEvent: {}
+[6.842118] (-) TimerEvent: {}
+[6.943116] (-) TimerEvent: {}
+[7.044064] (-) TimerEvent: {}
+[7.145008] (-) TimerEvent: {}
+[7.245923] (-) TimerEvent: {}
+[7.346901] (-) TimerEvent: {}
+[7.447833] (-) TimerEvent: {}
+[7.548758] (-) TimerEvent: {}
+[7.649692] (-) TimerEvent: {}
+[7.750645] (-) TimerEvent: {}
+[7.851565] (-) TimerEvent: {}
+[7.952424] (-) TimerEvent: {}
+[8.053194] (-) TimerEvent: {}
+[8.153904] (-) TimerEvent: {}
+[8.254632] (-) TimerEvent: {}
+[8.355362] (-) TimerEvent: {}
+[8.456097] (-) TimerEvent: {}
+[8.556846] (-) TimerEvent: {}
+[8.657581] (-) TimerEvent: {}
+[8.758356] (-) TimerEvent: {}
+[8.859314] (-) TimerEvent: {}
+[8.960016] (-) TimerEvent: {}
+[9.060889] (-) TimerEvent: {}
+[9.161860] (-) TimerEvent: {}
+[9.262854] (-) TimerEvent: {}
+[9.363763] (-) TimerEvent: {}
+[9.464665] (-) TimerEvent: {}
+[9.565592] (-) TimerEvent: {}
+[9.666534] (-) TimerEvent: {}
+[9.767459] (-) TimerEvent: {}
+[9.868434] (-) TimerEvent: {}
+[9.969393] (-) TimerEvent: {}
+[10.070358] (-) TimerEvent: {}
+[10.171270] (-) TimerEvent: {}
+[10.272178] (-) TimerEvent: {}
+[10.373104] (-) TimerEvent: {}
+[10.474021] (-) TimerEvent: {}
+[10.575013] (-) TimerEvent: {}
+[10.675948] (-) TimerEvent: {}
+[10.776868] (-) TimerEvent: {}
+[10.877805] (-) TimerEvent: {}
+[10.978799] (-) TimerEvent: {}
+[11.079764] (-) TimerEvent: {}
+[11.180691] (-) TimerEvent: {}
+[11.281614] (-) TimerEvent: {}
+[11.382557] (-) TimerEvent: {}
+[11.483488] (-) TimerEvent: {}
+[11.584419] (-) TimerEvent: {}
+[11.685360] (-) TimerEvent: {}
+[11.786324] (-) TimerEvent: {}
+[11.887261] (-) TimerEvent: {}
+[11.988154] (-) TimerEvent: {}
+[12.089061] (-) TimerEvent: {}
+[12.189962] (-) TimerEvent: {}
+[12.290933] (-) TimerEvent: {}
+[12.391865] (-) TimerEvent: {}
+[12.492792] (-) TimerEvent: {}
+[12.593676] (-) TimerEvent: {}
+[12.694668] (-) TimerEvent: {}
+[12.795611] (-) TimerEvent: {}
+[12.896560] (-) TimerEvent: {}
+[12.997440] (-) TimerEvent: {}
+[13.098337] (-) TimerEvent: {}
+[13.199211] (-) TimerEvent: {}
+[13.300070] (-) TimerEvent: {}
+[13.400937] (-) TimerEvent: {}
+[13.501777] (-) TimerEvent: {}
+[13.602694] (-) TimerEvent: {}
+[13.703594] (-) TimerEvent: {}
+[13.804530] (-) TimerEvent: {}
+[13.905493] (-) TimerEvent: {}
+[14.006427] (-) TimerEvent: {}
+[14.107356] (-) TimerEvent: {}
+[14.208293] (-) TimerEvent: {}
+[14.309234] (-) TimerEvent: {}
+[14.410160] (-) TimerEvent: {}
+[14.511086] (-) TimerEvent: {}
+[14.612006] (-) TimerEvent: {}
+[14.712948] (-) TimerEvent: {}
+[14.813891] (-) TimerEvent: {}
+[14.914860] (-) TimerEvent: {}
+[15.015779] (-) TimerEvent: {}
+[15.116703] (-) TimerEvent: {}
+[15.217633] (-) TimerEvent: {}
+[15.318581] (-) TimerEvent: {}
+[15.419498] (-) TimerEvent: {}
+[15.520394] (-) TimerEvent: {}
+[15.621105] (-) TimerEvent: {}
+[15.721918] (-) TimerEvent: {}
+[15.822801] (-) TimerEvent: {}
+[15.923643] (-) TimerEvent: {}
+[16.024502] (-) TimerEvent: {}
+[16.125329] (-) TimerEvent: {}
+[16.226143] (-) TimerEvent: {}
+[16.327005] (-) TimerEvent: {}
+[16.427997] (-) TimerEvent: {}
+[16.528852] (-) TimerEvent: {}
+[16.629720] (-) TimerEvent: {}
+[16.730441] (-) TimerEvent: {}
+[16.831175] (-) TimerEvent: {}
+[16.931920] (-) TimerEvent: {}
+[17.032820] (-) TimerEvent: {}
+[17.133666] (-) TimerEvent: {}
+[17.234577] (-) TimerEvent: {}
+[17.335397] (-) TimerEvent: {}
+[17.436092] (-) TimerEvent: {}
+[17.536938] (-) TimerEvent: {}
+[17.637678] (-) TimerEvent: {}
+[17.738419] (-) TimerEvent: {}
+[17.839160] (-) TimerEvent: {}
+[17.939905] (-) TimerEvent: {}
+[18.040612] (-) TimerEvent: {}
+[18.141337] (-) TimerEvent: {}
+[18.242039] (-) TimerEvent: {}
+[18.342755] (-) TimerEvent: {}
+[18.443457] (-) TimerEvent: {}
+[18.544152] (-) TimerEvent: {}
+[18.644906] (-) TimerEvent: {}
+[18.745644] (-) TimerEvent: {}
+[18.846395] (-) TimerEvent: {}
+[18.947150] (-) TimerEvent: {}
+[19.047892] (-) TimerEvent: {}
+[19.148642] (-) TimerEvent: {}
+[19.249398] (-) TimerEvent: {}
+[19.350138] (-) TimerEvent: {}
+[19.450919] (-) TimerEvent: {}
+[19.551852] (-) TimerEvent: {}
+[19.652585] (-) TimerEvent: {}
+[19.753289] (-) TimerEvent: {}
+[19.854011] (-) TimerEvent: {}
+[19.954754] (-) TimerEvent: {}
+[20.055471] (-) TimerEvent: {}
+[20.156201] (-) TimerEvent: {}
+[20.256896] (-) TimerEvent: {}
+[20.357597] (-) TimerEvent: {}
+[20.458342] (-) TimerEvent: {}
+[20.530282] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[20.531854] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[20.532831] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.534609] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.535263] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.535844] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.536422] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.536971] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.537513] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.538055] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.538663] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[20.539251] (vision) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.539919] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.540607] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.541236] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.541913] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.542845] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:26:74:\x1b[m\x1b[K   required from here\n'}
+[20.543456] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::AnySubscriptionCallbackHelper<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void>, false>::variant_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<sensor_msgs::msg::Image_<std::allocator<void> >, std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[20.544277] (vision) StderrLine: {'line': b'  394 |       \x1b[01;31m\x1b[Kcallback_variant_ = static_cast<typename scbth::callback_type>(callback)\x1b[m\x1b[K;\n'}
+[20.544837] (vision) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.545390] (vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[20.545930] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[20.546523] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.547113] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.547652] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.548189] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.548729] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.549282] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.549826] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.550568] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.551198] (vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[20.551741] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.552860] (vision) StderrLine: {'line': b' 1461 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Tp&& __rhs)\n'}
+[20.553411] (vision) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.553941] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[20.554535] (vision) StderrLine: {'line': b'/usr/include/c++/11/variant: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = std::function<void(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>&&; <template-parameter-2-2> = void; _Types = {std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.555322] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1457:14:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&> std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::operator=<_Tp>(_Tp&&) [with _Tp = std::function<void(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.556750] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.557354] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.558005] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.558915] (-) TimerEvent: {}
+[20.559272] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.559781] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.560191] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:26:74:\x1b[m\x1b[K   required from here\n'}
+[20.560531] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1375:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.560875] (vision) StderrLine: {'line': b' 1375 |         using \x1b[01;31m\x1b[K__accepted_type\x1b[m\x1b[K = __to_type<__accepted_index<_Tp>>;\n'}
+[20.561207] (vision) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.561536] (vision) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.561916] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.562371] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.562817] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.563184] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.563569] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/vision/src/vision_capture_subscriber.cpp:26:74:\x1b[m\x1b[K   required from here\n'}
+[20.563903] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.564367] (vision) StderrLine: {'line': b' 1398 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const variant&) = default;\n'}
+[20.564701] (vision) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.565024] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<sensor_msgs::msg::Image_<std::allocator<void> >, std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.586418] (vision) StderrLine: {'line': b' 1398 |       variant& operator=(\x1b[01;36m\x1b[Kconst variant&\x1b[m\x1b[K) = default;\n'}
+[20.587662] (vision) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.588411] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.589152] (vision) StderrLine: {'line': b' 1399 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(variant&&) = default;\n'}
+[20.589541] (vision) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.589892] (vision) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<sensor_msgs::msg::Image_<std::allocator<void> >, std::_Bind<void (ImageSubscriber::*(ImageSubscriber*, std::_Placeholder<1>))(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&)>, std::function<void(const sensor_msgs::msg::Image_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<sensor_msgs::msg::Image_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.590426] (vision) StderrLine: {'line': b' 1399 |       variant& operator=(\x1b[01;36m\x1b[Kvariant&&\x1b[m\x1b[K) = default;\n'}
+[20.590795] (vision) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.659128] (-) TimerEvent: {}
+[20.759828] (-) TimerEvent: {}
+[20.860538] (-) TimerEvent: {}
+[20.961275] (-) TimerEvent: {}
+[21.062043] (-) TimerEvent: {}
+[21.162784] (-) TimerEvent: {}
+[21.263490] (-) TimerEvent: {}
+[21.364229] (-) TimerEvent: {}
+[21.464981] (-) TimerEvent: {}
+[21.565734] (-) TimerEvent: {}
+[21.666519] (-) TimerEvent: {}
+[21.767260] (-) TimerEvent: {}
+[21.868109] (-) TimerEvent: {}
+[21.968863] (-) TimerEvent: {}
+[22.069581] (-) TimerEvent: {}
+[22.170326] (-) TimerEvent: {}
+[22.271057] (-) TimerEvent: {}
+[22.371768] (-) TimerEvent: {}
+[22.472492] (-) TimerEvent: {}
+[22.573191] (-) TimerEvent: {}
+[22.673939] (-) TimerEvent: {}
+[22.774692] (-) TimerEvent: {}
+[22.875428] (-) TimerEvent: {}
+[22.976185] (-) TimerEvent: {}
+[23.076934] (-) TimerEvent: {}
+[23.177672] (-) TimerEvent: {}
+[23.278420] (-) TimerEvent: {}
+[23.379160] (-) TimerEvent: {}
+[23.479895] (-) TimerEvent: {}
+[23.580610] (-) TimerEvent: {}
+[23.681326] (-) TimerEvent: {}
+[23.782039] (-) TimerEvent: {}
+[23.882976] (-) TimerEvent: {}
+[23.983719] (-) TimerEvent: {}
+[24.084670] (-) TimerEvent: {}
+[24.185626] (-) TimerEvent: {}
+[24.286629] (-) TimerEvent: {}
+[24.387564] (-) TimerEvent: {}
+[24.488504] (-) TimerEvent: {}
+[24.589447] (-) TimerEvent: {}
+[24.690410] (-) TimerEvent: {}
+[24.791385] (-) TimerEvent: {}
+[24.892344] (-) TimerEvent: {}
+[24.993290] (-) TimerEvent: {}
+[25.094297] (-) TimerEvent: {}
+[25.195244] (-) TimerEvent: {}
+[25.296208] (-) TimerEvent: {}
+[25.397167] (-) TimerEvent: {}
+[25.498095] (-) TimerEvent: {}
+[25.599107] (-) TimerEvent: {}
+[25.700101] (-) TimerEvent: {}
+[25.801049] (-) TimerEvent: {}
+[25.901992] (-) TimerEvent: {}
+[26.002986] (-) TimerEvent: {}
+[26.103921] (-) TimerEvent: {}
+[26.204863] (-) TimerEvent: {}
+[26.305829] (-) TimerEvent: {}
+[26.406831] (-) TimerEvent: {}
+[26.507777] (-) TimerEvent: {}
+[26.608708] (-) TimerEvent: {}
+[26.709665] (-) TimerEvent: {}
+[26.810679] (-) TimerEvent: {}
+[26.911598] (-) TimerEvent: {}
+[27.012577] (-) TimerEvent: {}
+[27.113525] (-) TimerEvent: {}
+[27.214345] (-) TimerEvent: {}
+[27.315186] (-) TimerEvent: {}
+[27.415959] (-) TimerEvent: {}
+[27.516683] (-) TimerEvent: {}
+[27.617448] (-) TimerEvent: {}
+[27.718392] (-) TimerEvent: {}
+[27.819107] (-) TimerEvent: {}
+[27.919844] (-) TimerEvent: {}
+[28.020598] (-) TimerEvent: {}
+[28.121347] (-) TimerEvent: {}
+[28.222145] (-) TimerEvent: {}
+[28.322953] (-) TimerEvent: {}
+[28.423697] (-) TimerEvent: {}
+[28.524425] (-) TimerEvent: {}
+[28.625186] (-) TimerEvent: {}
+[28.667624] (vision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_capture_subscriber_node.dir/build.make:76: CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o] Error 1\n'}
+[28.668535] (vision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_capture_subscriber_node.dir/all] Error 2\n'}
+[28.669430] (vision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[28.676575] (vision) CommandEnded: {'returncode': 2}
+[28.725519] (-) TimerEvent: {}
+[28.827389] (-) TimerEvent: {}
+[28.928232] (-) TimerEvent: {}
+[29.030600] (-) TimerEvent: {}
+[29.132437] (-) TimerEvent: {}
+[29.139879] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[29.159605] (-) EventReactorShutdown: {}

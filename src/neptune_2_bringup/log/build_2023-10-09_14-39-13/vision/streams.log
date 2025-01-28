@@ -1,0 +1,13 @@
+[0.277s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target image_capture_subscriber_node[0m
+[0.550s] [ 50%] Built target image_capture_node
+[0.607s] [ 75%] [32mBuilding CXX object CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o[0m
+[39.817s] [100%] [32m[1mLinking CXX executable image_capture_subscriber_node[0m
+[41.827s] /usr/bin/ld: CMakeFiles/image_capture_subscriber_node.dir/src/vision_capture_subscriber.cpp.o: in function `ImageSubscriber::cam_image_callback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+[41.827s] vision_capture_subscriber.cpp:(.text._ZN15ImageSubscriber18cam_image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber18cam_image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0xec): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+[41.828s] /usr/bin/ld: vision_capture_subscriber.cpp:(.text._ZN15ImageSubscriber18cam_image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber18cam_image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x156): undefined reference to `cv::waitKey(int)'
+[42.076s] collect2: error: ld returned 1 exit status
+[42.080s] gmake[2]: *** [CMakeFiles/image_capture_subscriber_node.dir/build.make:181: image_capture_subscriber_node] Error 1
+[42.081s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_capture_subscriber_node.dir/all] Error 2
+[42.082s] gmake: *** [Makefile:146: all] Error 2
+[42.088s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/vision -- -j8 -l8

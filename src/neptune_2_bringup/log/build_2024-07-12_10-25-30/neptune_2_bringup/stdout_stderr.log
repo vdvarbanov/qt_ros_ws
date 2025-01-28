@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target msg_to_pcl2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o[0m
+gmake[2]: *** [CMakeFiles/msg_to_pcl2.dir/build.make:76: CMakeFiles/msg_to_pcl2.dir/src/msg_to_pcl2.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msg_to_pcl2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

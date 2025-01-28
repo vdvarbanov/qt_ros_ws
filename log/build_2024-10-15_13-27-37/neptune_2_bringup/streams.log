@@ -1,0 +1,11 @@
+[0.027s] Invoking command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8
+[0.146s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_process.dir/src/cam_process.cpp.o[0m
+[0.225s] [ 75%] Built target msg_to_pcl2
+[0.514s] [01m[K/home/vladi/Desktop/ros2_commands/qt_ros_ws/src/neptune_2_bringup/src/cam_process.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
+[0.514s]     8 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K // Using image_transport allows us to publish and subscribe to compressed image streams in ROS2
+[0.515s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.515s] compilation terminated.
+[0.518s] gmake[2]: *** [CMakeFiles/cam_process.dir/build.make:76: CMakeFiles/cam_process.dir/src/cam_process.cpp.o] Error 1
+[0.519s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cam_process.dir/all] Error 2
+[0.519s] gmake: *** [Makefile:146: all] Error 2
+[0.523s] Invoked command in '/home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup' returned '2': CMAKE_PREFIX_PATH=/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_description:/home/vladi/Desktop/ros2_commands/qt_ros_ws/install/neptune_2_bringup:/opt/ros/humble /usr/bin/cmake --build /home/vladi/Desktop/ros2_commands/qt_ros_ws/build/neptune_2_bringup -- -j8 -l8

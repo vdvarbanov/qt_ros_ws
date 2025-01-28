@@ -1,0 +1,4 @@
+source;share/neptune_2_description/local_setup.bash
+source;share/neptune_2_description/local_setup.dsv
+source;share/neptune_2_description/local_setup.sh
+source;share/neptune_2_description/local_setup.zsh

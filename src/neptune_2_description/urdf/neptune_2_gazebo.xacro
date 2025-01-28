@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+<robot name="neptun_2" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <gazebo reference="base_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="right_wheel_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <gazebo reference="left_wheel_link">
+        <material>Gazebo/Blue</material> 
+    </gazebo>
+
+    <gazebo reference="castor_wheel">
+        <material>Gazebo/Gray</material>
+        <mu1 value="0.01"/>
+        <mu1 value="0.01"/>
+    </gazebo>
+
+    
+    <gazebo reference="camera_link">
+        <material>Gazebo/Black</material>
+        <sensor name="camera_sensor" type="camera">
+            <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+            <visualize>true</visualize>
+            <update_rate>10.0</update_rate>
+            
+            <camera>
+              <horizontal_fov>1.02974</horizontal_fov>
+                <image>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+                <!--
+                <lens>
+                    <intrinsics>
+                        <fx>1696.802685832259</fx>
+                        <fy>1696.802685832259</fy>
+                        <cx>960.5</cx>
+                        <cy>540.5</cy>
+                         you have provided for camera_ [camera] is inconsistent with specified image_width [1280] and HFOV [1.047000].   Please double check to see that focal_length = width_ / (2.0 * tan(HFOV/2.0)), the explected focal_lengtth value is [1108.765426], please update your camera_ model description accordingly.
+                    </intrinsics>
+                </lens>
+                -->
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.007</stddev>
+                </noise>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical</frame_name>
+                <!--
+                focal_length = width_ / (2.0 * tan(HFOV/2.0))
+                <alwaysOn>true</alwaysOn>
+                <updateRate>0.0</updateRate>
+                <cameraName>rrbot/camera1</cameraName>
+                <imageTopicName>image_raw</imageTopicName>
+                
+                <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+              
+                <hackBaseline>0.07</hackBaseline> only for multicam 
+                Only one of the cameras has pose xyz
+                <distortionK1>0.0</distortionK1>
+                <distortionK2>0.0</distortionK2>
+                <distortionK3>0.0</distortionK3>
+                <distortionT1>0.0</distortionT1>
+                <distortionT2>0.0</distortionT2>
+                -->
+            </plugin>
+        </sensor>
+    
+    </gazebo>
+
+
+    <gazebo reference="proj_link">     
+        <sensor type = "ray" name = "lidar"> 
+            <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+            <visualize>true</visualize>
+            <update_rate>1</update_rate>
+            
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>1</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-0.22</min_angle>
+                        <max_angle>0.22</max_angle>
+                    </horizontal>
+                    
+                    <vertical>
+                        <samples>2</samples>
+                        <resolution>1</resolution>
+                        <min_angle>0</min_angle>
+                        <max_angle>0.22</max_angle>
+                    </vertical>
+                    
+                </scan>
+                <range>
+                    <min>0.08</min>
+                    <max>150</max>
+                </range>    
+            </ray>  
+
+            <plugin name="laser" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <namespace>/ray</namespace>
+                    <!-- <remapping>~/out:=pointcloud2</remapping> -->
+                </ros>
+                <!--<output_type>sensor_msgs/LaserScan</output_type>-->
+               <!-- <output_type>sensor_msgs/PointCloud</output_type> -->
+                <frame_name>proj_link</frame_name>       
+            </plugin>
+        </sensor>
+        
+    </gazebo>
+
+
+<!--
+    <gazebo reference="proj_link">
+        <material>Gazebo/Black</material>
+        <projector name = "projector">
+            <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+            <texture>media/materials/textures/stereo_projection_pattern_high_res_red.png</texture>
+            <fov>0.5</fov>
+            <near_clip>0.1</near_clip>
+            <far_clip>50</far_clip>
+        </projector>
+    </gazebo>
+
+    <gazebo>
+     <plugin name="projector" filename="libgazebo_ros_projector.so">
+         <projector>projector_wg6802418</projector>
+         <alwaysOn>true</alwaysOn>
+         <updateRate>10.0</updateRate>
+         
+         <textureName></textureName>
+         <filterTextureName></filterTextureName>
+         
+         <textureTopicName>/projector/image</textureTopicName>
+         <projectorTopicName>/projector/projector</projectorTopicName>
+     </plugin>
+    </gazebo>
+-->
+
+
+    <gazebo>
+        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+    <!--    <ros>
+            
+            <namespace>/test</namespace>
+        </ros>
+    -->
+        <!-- Update rate in Hz -->
+        <update_rate>50</update_rate>
+
+        <!-- wheels -->
+        <left_joint>base_left_wheel_joint</left_joint>
+        <right_joint>base_right_wheel_joint</right_joint>
+
+        <!-- kinematics -->
+        <wheel_separation>0.45</wheel_separation>
+        <wheel_diameter>0.2</wheel_diameter>
+
+        <!-- limits -->
+        <!-- 
+        <max_wheel_torque>20</max_wheel_torque>
+        <max_wheel_acceleration>1.0</max_wheel_acceleration>
+        -->
+        <!-- input -->
+        <!-- Its this anyway
+        <command_topic>cmd_vel</command_topic>
+        -->
+
+        <!-- output -->
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+        <publish_wheel_tf>true</publish_wheel_tf>
+
+        <odometry_topic>odom</odometry_topic>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_footprint</robot_base_frame>
+
+    </plugin>
+    </gazebo>
+</robot>

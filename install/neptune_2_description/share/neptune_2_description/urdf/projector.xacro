@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="proj_x_dim" value="0.01" />
+    <xacro:property name="proj_y_dim" value="0.1"  />
+    <xacro:property name="proj_z_dim" value="0.05" />
+
+   <link name="proj_link">
+        <visual>
+            <geometry>
+                <box size="${proj_x_dim} ${proj_y_dim} ${proj_x_dim}"/>
+            </geometry>
+            <origin xyz="${proj_x_dim / 2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="light_gray" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${proj_x_dim} ${proj_y_dim} ${proj_z_dim}"/>
+            </geometry>
+        </collision>
+        <xacro:box_inertia 
+            m="0.1" 
+            l= "${proj_x_dim}" w="${proj_y_dim}" h="${proj_z_dim}" 
+            xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"
+        />
+    </link>
+
+    <joint name="proj_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="proj_link"/>
+        <origin xyz="${base_length / 2}
+                     ${base_width / 4}
+                     ${base_height / 2}"
+                     rpy="0.0 0.0 0.0"/>        
+    </joint>
+</robot>

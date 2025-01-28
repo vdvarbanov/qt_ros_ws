@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250122-1344-Experimental"
+	Name="vladi"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="vladi"
+	OSRelease="6.8.0-51-generic"
+	OSVersion="#52~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Dec  9 15:00:52 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="60"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15898"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1428.78"
+	>
+	<Testing>
+		<StartDateTime>Jan 22 15:50 EET</StartDateTime>
+		<StartTestTime>1737553839</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 22 15:50 EET</EndDateTime>
+		<EndTestTime>1737553839</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
